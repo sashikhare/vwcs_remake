@@ -168,6 +168,7 @@
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
+  color: #131212;
 }
 
 .sf-arrows .sf-with-ul:after {
@@ -177,10 +178,12 @@
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
+  color: #131212;
 }
 
 .sf-arrows ul .sf-with-ul:after {
   content: "\f105";
+  color: #131212;
 }
 
 /* Nav Meu Container */

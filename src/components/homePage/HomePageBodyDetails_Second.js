@@ -11,7 +11,7 @@ import "../../css/animate.min.css";
 import "../../css/owl.carousel.css"
 import "../../css/jquery-ui.css"
 import "../../css/main.css"
-class BodyDetails_Second extends React.Component {
+class HomePageBodyDetails_Second extends React.Component {
   render() {
     return (
     
@@ -70,4 +70,4 @@ class BodyDetails_Second extends React.Component {
   }
 }
 
-export default BodyDetails_Second;
+export default HomePageBodyDetails_Second;
