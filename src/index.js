@@ -15,6 +15,7 @@ import AboutusPage from "./aboutus"
 import HomePage from "./home"
 import CourseOnePage from "./courseOne"
 import StudyMaterialPage from "./studyMaterial"
+import OnlineCoursesPage from "./onlineCourses"
 
 
 import HeaderDetails from "./components/genric/HeaderDetails"
@@ -44,6 +45,7 @@ class App extends React.Component {
             <Route exact path="/aboutus" component={AboutusPage} />
             <Route exact path="/courseOne" component={CourseOnePage} />
             <Route exact path="/studyMaterial" component={StudyMaterialPage} />
+            <Route exact path="/onlineCourses" component={OnlineCoursesPage} />
           </Switch>
           </div>
           </Router>

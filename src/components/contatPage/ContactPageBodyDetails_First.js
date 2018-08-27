@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 
 import "../../css/linearicons.css"
@@ -22,7 +23,7 @@ class ContactPageBodyDetails_First extends React.Component {
 							<h1 class="text-white">
 								Contact Us				
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.html"> Contact Us</a></p>
+							<p class="text-white link-nav"><Link to="/">Home</Link>  <span class="lnr lnr-arrow-right"></span>  <a href="contact.html"> Contact Us</a></p>
 						</div>	
 					</div>
 				</div>

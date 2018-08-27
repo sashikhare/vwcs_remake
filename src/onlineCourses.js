@@ -4,21 +4,21 @@ import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import HeaderDetails from "./components/genric/HeaderDetails"
-import BodyDetails_First from "./components/genric/BodyDetails_First"
+import OnlineCoursesPageBodyDetails_First from "./components/onlineCoursesPage/OnlineCoursesPageBodyDetails_First"
+import OnlineCoursesPageBodyDetails_Second from "./components/onlineCoursesPage/OnlineCoursesPageBodyDetails_Second"
 import HomePageBodyDetails_Second from "./components/homePage/HomePageBodyDetails_Second"
 import HomePageBodyDetails_Third from "./components/homePage/HomePageBodyDetails_Third"
 import FooterDetails from "./components/genric/FooterDetails"
 
 
 
-class SchedulePage extends React.Component {
+class OnlineCoursesPage extends React.Component {
     render() {
       return (
           
         <div>
-          
-          
+          <OnlineCoursesPageBodyDetails_First></OnlineCoursesPageBodyDetails_First>
+          <OnlineCoursesPageBodyDetails_Second></OnlineCoursesPageBodyDetails_Second>
           <FooterDetails></FooterDetails>
         </div>
         
@@ -26,5 +26,5 @@ class SchedulePage extends React.Component {
     }
   }
 
-  export default SchedulePage
+  export default OnlineCoursesPage
 

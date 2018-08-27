@@ -59,7 +59,7 @@ class HeaderDetails extends React.Component {
                     <li><Link to="/">Home</Link></li>
                     <li class="menu-has-children"><Link to="/courses">Courses</Link>
                       </li>
-                    <li><a href="courses.html">Online Courses</a></li>
+                    <li><a href="/onlineCourses">Online Courses</a></li>
                     <li><Link to="/studyMaterial">Study Material</Link></li>
                     <li><Link to="/schedule">Schedule</Link>
                     <ul>

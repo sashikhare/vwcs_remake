@@ -39,8 +39,6 @@ class StudyMaterialPageBodyDetails_Second extends React.Component {
                                 <p align="left">- Coiled Tubing Study Material<span class="study-link"><a  href="http://www.oilschool.com/course/view.php?id=267">View Details</a></span></p>
                                 <p align="left">- Causes of Kicks Study Material<span class="study-link"><a  href="http://www.oilschool.com/course/view.php?id=257">View Details</a></span></p>
                                 <p align="left">- HomeWork<span class="study-link"><a  href="http://www.oilschool.com/course/view.php?id=209">View Details</a></span></p>
-
-
                             </div>
                             <div class="clear-fix">
                                 
