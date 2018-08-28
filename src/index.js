@@ -14,6 +14,8 @@ import GalleryPage from "./gallery"
 import AboutusPage from "./aboutus"
 import HomePage from "./home"
 import CourseOnePage from "./courseOne"
+import CourseSecondPage from "./courseSecond"
+import CourseThirdPage from "./courseThird"
 import StudyMaterialPage from "./studyMaterial"
 import OnlineCoursesPage from "./onlineCourses"
 
@@ -44,6 +46,8 @@ class App extends React.Component {
             <Route exact path="/gallery" component={GalleryPage} />
             <Route exact path="/aboutus" component={AboutusPage} />
             <Route exact path="/courseOne" component={CourseOnePage} />
+            <Route exact path="/courseSecond" component={CourseSecondPage} />
+            <Route exact path="/courseThird" component={CourseThirdPage} />
             <Route exact path="/studyMaterial" component={StudyMaterialPage} />
             <Route exact path="/onlineCourses" component={OnlineCoursesPage} />
           </Switch>

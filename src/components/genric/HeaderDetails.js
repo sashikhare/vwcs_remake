@@ -64,8 +64,8 @@ class HeaderDetails extends React.Component {
                     <li><Link to="/schedule">Schedule</Link>
                     <ul>
                         <li><Link to="/courseOne">IWCF - Surface Stack: Level 2</Link></li>
-                        <li><a href="blog-single.html">IWCF - Combined Surface & Subsea Stack: Level 2</a></li>
-                        <li><a href="http://www.vwcs.info/moodle/course/view.php?id=14">IWCF - Surface Stack: Level 3 & 4</a></li>
+                        <li><Link to="/courseSecond">IWCF - Combined Surface & Subsea Stack: Level 2</Link></li>
+                        <li><Link to="/courseThird">IWCF - Surface Stack: Level 3 & 4</Link></li>
                         
                         <li><a href="blog-single.html">IWCF - Combined Surface & Subsea Stack: Level 3 & 4</a></li>
                         <li><a href="blog-single.html">IADC - Surface Stack: Introductory Level</a></li>

@@ -5,7 +5,7 @@ import './index.css';
 //import registerServiceWorker from './registerServiceWorker';
 
 import CourseOnePageBodyDetails_First from "./components/courseOnePage/CourseOnePageBodyDetails_First"
-import ContactPageBodyDetails_Second from "./components/contatPage/ContactPageBodyDetails_Second"
+import CourseOnePageBodyDetails_Second from "./components/courseOnePage/CourseOnePageBodyDetails_Second"
 
 import FooterDetails from "./components/genric/FooterDetails"
 
@@ -18,6 +18,7 @@ class CourseOnePage extends React.Component {
         <div>
           
           <CourseOnePageBodyDetails_First></CourseOnePageBodyDetails_First>
+          <CourseOnePageBodyDetails_Second></CourseOnePageBodyDetails_Second>
           
           <FooterDetails></FooterDetails>
           

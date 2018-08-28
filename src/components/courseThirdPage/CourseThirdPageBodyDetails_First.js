@@ -12,7 +12,7 @@ import "../../css/animate.min.css";
 import "../../css/owl.carousel.css"
 import "../../css/jquery-ui.css"
 import "../../css/main.css"
-class CourseOnePageBodyDetails_First extends React.Component {
+class CourseThirdPageBodyDetails_First extends React.Component {
   render() {
     return (
 		<section class="banner-area relative about-banner" id="home">	
@@ -21,7 +21,7 @@ class CourseOnePageBodyDetails_First extends React.Component {
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-                            IWCF - Surface Stack: Level 2	
+							IWCF - Surface Stack: Level 3 & 4
 							</h1>	
 							<p class="text-white link-nav"><Link to="/">Home</Link> <span class="lnr lnr-arrow-right"></span>  <a href="courses.html"> Schedule</a></p>
 						</div>	
@@ -34,4 +34,4 @@ class CourseOnePageBodyDetails_First extends React.Component {
   }
 }
 
-export default CourseOnePageBodyDetails_First;
+export default CourseThirdPageBodyDetails_First;

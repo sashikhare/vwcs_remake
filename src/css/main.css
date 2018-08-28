@@ -2137,7 +2137,7 @@ body.mobile-nav-active #mobile-nav-toggle{
     transition:all 0.3s ease 0s
 }
 .single-popular-carusel .meta{
-    margin-top:-61px;
+    margin-top:-40px;
     z-index:2;
     position:inherit;
     padding:0px 10px
@@ -4079,5 +4079,8 @@ dl.toggle.time-line:before{
 }
 .clear-fix{
     clear: both;
+}
+.header-gap{
+    margin-top: 10px;
 }
  
