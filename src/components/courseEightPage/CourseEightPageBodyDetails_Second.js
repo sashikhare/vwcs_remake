@@ -12,7 +12,7 @@ import "../../css/animate.min.css";
 import "../../css/owl.carousel.css"
 import "../../css/jquery-ui.css"
 import "../../css/main.css"
-class CourseSecondPageBodyDetails_Second extends React.Component {
+class CourseEightPageBodyDetails_Second extends React.Component {
     render() {
         return (
             <section class="popular-courses-area section-gap courses-page">
@@ -26,7 +26,8 @@ class CourseSecondPageBodyDetails_Second extends React.Component {
                                 <div>
                                     <h4 align="left"><u>Course Details</u></h4>
                                     <p>
-                                        <h5 align="left" class="header-gap">IWCF - Combined Surface & Subsea Stack: Level 2</h5>
+                                        <h5 align="left" class="header-gap">HSC Rig Pass
+</h5>
                                         <h6 align="left">Duration : 5 Days</h6>
                                     </p>
                                 </div>
@@ -76,8 +77,8 @@ class CourseSecondPageBodyDetails_Second extends React.Component {
                                 <div>
                                     <h4 align="left"><u>Upcoming Course Dates</u></h4>
                                     <p>
-                                        <h5 align="left" class="header-gap">INR : ₹ 25,000 + GST</h5>
-                                        <h5 align="left" class="header-gap">USD : $ 2,000 + GST</h5>
+                                        <h5 align="left" class="header-gap">INR : ₹ 45,000 + GST</h5>
+                                        <h5 align="left" class="header-gap">USD : $ 4,500 + GST</h5>
                                     </p>
                                     <p align="justify">
                                     Fee including registration and exam fee, breakfast, tea/coffee, lunch, evening snacks, study material, stationeries. This fee does not include accommodation and transportation.
@@ -98,4 +99,4 @@ class CourseSecondPageBodyDetails_Second extends React.Component {
     }
 }
 
-export default CourseSecondPageBodyDetails_Second;
+export default CourseEightPageBodyDetails_Second;

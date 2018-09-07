@@ -6,6 +6,7 @@ import './index.css';
 
 import ContactPageBodyDetails_First from "./components/contatPage/ContactPageBodyDetails_First"
 import ContactPageBodyDetails_Second from "./components/contatPage/ContactPageBodyDetails_Second"
+import ContactPageBodyDetails_Third from "./components/contatPage/ContactPageBodyDetails_Third"
 
 import FooterDetails from "./components/genric/FooterDetails"
 
@@ -18,6 +19,7 @@ class ContactPage extends React.Component {
         <div>
           
           <ContactPageBodyDetails_First></ContactPageBodyDetails_First>
+          <ContactPageBodyDetails_Third></ContactPageBodyDetails_Third>
           <ContactPageBodyDetails_Second></ContactPageBodyDetails_Second>
           <FooterDetails></FooterDetails>
           

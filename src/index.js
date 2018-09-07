@@ -16,8 +16,14 @@ import HomePage from "./home"
 import CourseOnePage from "./courseOne"
 import CourseSecondPage from "./courseSecond"
 import CourseThirdPage from "./courseThird"
+import CourseFourPage from "./courseFour"
+import CourseFivePage from "./courseFive"
+import CourseSixPage from "./courseSix"
+import CourseSevenPage from "./courseSeven"
+import CourseEightPage from "./courseEight"
 import StudyMaterialPage from "./studyMaterial"
 import OnlineCoursesPage from "./onlineCourses"
+
 
 
 import HeaderDetails from "./components/genric/HeaderDetails"
@@ -48,8 +54,14 @@ class App extends React.Component {
             <Route exact path="/courseOne" component={CourseOnePage} />
             <Route exact path="/courseSecond" component={CourseSecondPage} />
             <Route exact path="/courseThird" component={CourseThirdPage} />
+            <Route exact path="/courseFour" component={CourseFourPage} />
+            <Route exact path="/courseFive" component={CourseFivePage} />
+            <Route exact path="/courseSix" component={CourseSixPage} />
+            <Route exact path="/courseSeven" component={CourseSevenPage} />
+            <Route exact path="/courseEight" component={CourseEightPage} />
             <Route exact path="/studyMaterial" component={StudyMaterialPage} />
             <Route exact path="/onlineCourses" component={OnlineCoursesPage} />
+            
           </Switch>
           </div>
           </Router>

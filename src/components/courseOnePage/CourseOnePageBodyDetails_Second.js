@@ -41,7 +41,7 @@ class CourseOnePageBodyDetails_Second extends React.Component {
                                 <div>
                                     <h4 align="left"><u>Course Overview</u></h4>
                                     <p class="header-gap" align="justify">
-                                        The course duration is five days. Course starts on Tuesday at 0830 hrs. & finishes on Saturday at 1400 hrs. For first three days extensive class room teaching is followed by practical sessions on simulator. Assignment containing questions pertaining to days curriculum are given and discussion on assignment is taken up in the next morning.
+                                        The course duration is five days. Course starts on Tuesday at 08:30 hrs. & finishes on Saturday at 14:00 hrs. For first three days extensive class room teaching is followed by practical sessions on simulator. Assignment containing questions pertaining to days curriculum are given and discussion on assignment is taken up in the next morning.
                                     </p>
                                     <p align="justify">
                                         On fourth day a mock test is conducted which is an in- house test based on IWCF pattern. This is to access the performance of the participants and prepare them for the final test. Individual attention is given to the participants based on the results of the Mock test. Simulator Practical Assessment. On fifty day, there will be written examination and certification.

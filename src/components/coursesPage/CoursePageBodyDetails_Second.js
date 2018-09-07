@@ -106,21 +106,25 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							
 						<div class="single-popular-carusel col-lg-3 col-md-6">
 							<div class="thumb-wrap relative">
+                            
 								<div class="thumb relative">
-									<div class="overlay overlay-bg"></div>	
+									<div class="overlay overlay-bg"></div>
+                                    <Link to="/courseFour">
 									<img class="img-fluid" src="img/p4.jpg" alt=""/>
+                                    </Link>	
 								</div>
 								<div class="meta d-flex justify-content-between">
                                 <p><span>Duration: 5 Days</span></p>
 									<span><h4>₹15000</h4><h4>$150</h4></span>
-								</div>									
+								</div>	
+                               							
 							</div>
 							<div class="details">
-								<a href="course-details.html">
+                            <Link to="/courseFour">
 									<h4>
                                     IWCF - Combined Surface & Subsea Stack: Level 3 & 4
 									</h4>
-								</a>
+								</Link>
 								<p align="justify">
                                 The objective of this course is to teach well control competency to drillers and others requiring a Level 3 certification. A secondary objective is to prepare participants for the IWCF Well Control exams.
 								</p>
@@ -129,8 +133,10 @@ class CoursesPageBodyDetails_Second extends React.Component {
 						<div class="single-popular-carusel col-lg-3 col-md-6">
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
-									<div class="overlay overlay-bg"></div>	
+									<div class="overlay overlay-bg"></div>
+									<Link to="/courseFive">	
 									<img class="img-fluid" src="img/p5.jpg" alt=""/>
+									</Link>
 								</div>
 								<div class="meta d-flex justify-content-between">
                                 <p><span>Duration: 5 Days</span></p>
@@ -138,12 +144,12 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-								<a href="course-details.html">
+							<Link to="/courseFive">
 									<h4>
                                     IADC - Surface Stack
                                     <p>Introductory Level</p>
 									</h4>
-								</a>
+									</Link>
 								<p align="justify">
                                 This course is strongly recommended for first time well control candidates and prior to taking IADC Well Cap Course in Fundamental Level & Supervisory Level.This help's the candidate to deal with most critical situations.
 								</p>
@@ -152,8 +158,10 @@ class CoursesPageBodyDetails_Second extends React.Component {
 						<div class="single-popular-carusel col-lg-3 col-md-6">
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
-									<div class="overlay overlay-bg"></div>	
+									<div class="overlay overlay-bg"></div>
+									<Link to="/courseSix">	
 									<img class="img-fluid" src="img/p6.jpg" alt=""/>
+									</Link>
 								</div>
 								<div class="meta d-flex justify-content-between">
 									<p><span>Duration: 5 Days</span></p>
@@ -161,12 +169,14 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-								<a href="course-details.html">
+								
+								<Link to="/courseSix">	
 									<h4>
                                     IADC - Surface Stack
                                     <p>Fundamental & Supervisory Level</p>
 									</h4>
-								</a>
+									</Link>
+								
 								<p align="justify">
                                 A secondary objective is to prepare participants for the IADC Well Cap exams.Certification is given for Surface or Combined Surface and Subsea
 								</p>
@@ -175,8 +185,10 @@ class CoursesPageBodyDetails_Second extends React.Component {
 						<div class="single-popular-carusel col-lg-3 col-md-6">
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
-									<div class="overlay overlay-bg"></div>	
+									<div class="overlay overlay-bg"></div>
+									<Link to="/courseSeven">	
 									<img class="img-fluid" src="img/p7.jpg" alt=""/>
+									</Link>
 								</div>
 								<div class="meta d-flex justify-content-between">
                                 <p><span>Duration: 5 Days</span></p>
@@ -184,11 +196,11 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-								<a href="course-details.html">
+							<Link to="/courseSeven">
 									<h4>
                                     IADC - Combined Surface & Subsea Stack: Fundamental & Supervisory Level
 									</h4>
-								</a>
+								</Link>
 								<p>
 									When television was young, there was a hugely popular show based on the still popular fictional characte										
 								</p>
@@ -198,7 +210,9 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>	
+									<Link to="/courseEight">
 									<img class="img-fluid" src="img/p8.jpg" alt=""/>
+									</Link>
 								</div>
 								<div class="meta d-flex justify-content-between">
                                 <p><span>Duration: 5 Days</span></p>
@@ -206,14 +220,14 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-								<a href="course-details.html">
+							<Link to="/courseEight">
 									<h4>
                                     HSC Rig Pass
 									</h4>
-								</a>
-								<p>
+								</Link>
+								<div class="container">
 									When television was young, there was a hugely popular show based on the still popular fictional characte										
-								</p>
+								</div>
 							</div>
 						</div>								
 																		
