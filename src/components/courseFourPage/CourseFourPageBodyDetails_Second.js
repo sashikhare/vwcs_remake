@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import {getcourseOne_Schedule} from "../../api/courseOne_Schedule"
 
 
 import "../../css/linearicons.css"
@@ -13,6 +14,13 @@ import "../../css/owl.carousel.css"
 import "../../css/jquery-ui.css"
 import "../../css/main.css"
 class CourseFourPageBodyDetails_Second extends React.Component {
+
+    componentDidMount()
+    {
+        getcourseOne_Schedule().then(console.log)
+        
+    }
+
     render() {
         return (
             <section class="popular-courses-area section-gap courses-page">
