@@ -4087,3 +4087,8 @@ dl.toggle.time-line:before{
     width:100%;
     height: 445px
 }
+.date-note{
+    float: right;
+    font-size: 10px;
+    color: #ff0404;
+}

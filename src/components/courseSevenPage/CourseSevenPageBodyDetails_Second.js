@@ -12,6 +12,8 @@ import "../../css/animate.min.css";
 import "../../css/owl.carousel.css"
 import "../../css/jquery-ui.css"
 import "../../css/main.css"
+
+import CourseSevenPageBodyDetails_Third from "./CourseSevenPageBodyDetails_Third"
 class CourseSevenPageBodyDetails_Second extends React.Component {
     render() {
         return (
@@ -84,11 +86,10 @@ class CourseSevenPageBodyDetails_Second extends React.Component {
                                 <div>
                                     <h4 align="left"><u>Upcoming Course Dates</u></h4>
                                     <p>
-                                        <h5 align="left" class="header-gap">INR : ₹ 40,000 + GST</h5>
-                                        <h5 align="left" class="header-gap">USD : $ 4,000 + GST</h5>
+                                        <CourseSevenPageBodyDetails_Third></CourseSevenPageBodyDetails_Third>
                                     </p>
-                                    <p align="justify">
-                                        Fee including registration and exam fee, breakfast, tea/coffee, lunch, evening snacks, study material, stationeries. This fee does not include accommodation and transportation.
+                                    <p align="justify" class="date-note">
+                                        * Dates are subject to change depending on IDAC's holidays.
                                     </p>
                                 </div>
 

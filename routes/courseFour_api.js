@@ -16,9 +16,15 @@ con.connect(function (err) {
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
+/* GET date listing. */
 router.get('/', function (req, res, next) {
-    con.query("SELECT DATE_FORMAT(Course_Start_Date,'%d-%m-%y'),DATE_FORMAT(Course_End_Date,'%d-%m-%y') FROM course_four", function (err, result, fields) {
+    const query = `
+    SELECT
+    DATE_FORMAT(Course_Start_Date,'%d-%m-%y') as course_start_date,
+    DATE_FORMAT(Course_End_Date,'%d-%m-%y') as course_end_date,Location
+FROM course_four where Course_Start_Date > sysdate() and Course_Start_Date < DATE_ADD(sysdate(), INTERVAL 60 DAY);
+    `;
+    con.query(query, function (err, result, fields) {
 
         res.json({
             result,
@@ -27,4 +33,5 @@ router.get('/', function (req, res, next) {
     });
 
 })
+
 module.exports = router;

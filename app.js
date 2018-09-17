@@ -10,7 +10,10 @@ var cors = require('cors')
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var coutseOneRouter = require('./routes/courseOne');
+var courseFourRouter = require('./routes/courseFour_api');
+var courseThreeRouter = require('./routes/courseThree_api');
+var courseSixRouter = require('./routes/courseSix_api');
+var courseSevenRouter = require('./routes/courseSeven_api');
 
 var app = express();
 
@@ -29,8 +32,12 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 
 app.use('/users', usersRouter);
-app.use('/courseOne', coutseOneRouter);
+app.use('/courseFour_api', courseFourRouter);
+app.use('/courseThree_api', courseThreeRouter);
+app.use('/courseSix_api', courseSixRouter);
+app.use('/courseSeven_api', courseSevenRouter);
 app.use('*', indexRouter);
+// app.use('/', indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

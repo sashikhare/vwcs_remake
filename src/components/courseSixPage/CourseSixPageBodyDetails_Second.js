@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
+import CourseSixPageBodyDetails_Third from "./CourseSixPageBodyDetails_Third"
 
 import "../../css/linearicons.css"
 import "../../css/font-awesome.min.css"
@@ -84,11 +85,10 @@ class CourseSixPageBodyDetails_Second extends React.Component {
                                 <div>
                                     <h4 align="left"><u>Upcoming Course Dates</u></h4>
                                     <p>
-                                        <h5 align="left" class="header-gap">INR : ₹ 25,000 + GST</h5>
-                                        <h5 align="left" class="header-gap">USD : $ 2,000 + GST</h5>
+                                        <CourseSixPageBodyDetails_Third></CourseSixPageBodyDetails_Third>
                                     </p>
-                                    <p align="justify">
-                                        Fee including registration and exam fee, breakfast, tea/coffee, lunch, evening snacks, study material, stationeries. This fee does not include accommodation and transportation.
+                                    <p align="justify" class="date-note">
+                                        * Dates are subject to change depending on IDAC's holidays.
                                     </p>
                                 </div>
 

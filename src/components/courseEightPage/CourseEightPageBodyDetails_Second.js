@@ -75,13 +75,9 @@ class CourseEightPageBodyDetails_Second extends React.Component {
                                     </p>
                                 </div>
                                 <div>
-                                    <h4 align="left"><u>Upcoming Course Dates</u></h4>
-                                    <p>
-                                        <h5 align="left" class="header-gap">INR : ₹ 45,000 + GST</h5>
-                                        <h5 align="left" class="header-gap">USD : $ 4,500 + GST</h5>
-                                    </p>
-                                    <p align="justify">
-                                    Fee including registration and exam fee, breakfast, tea/coffee, lunch, evening snacks, study material, stationeries. This fee does not include accommodation and transportation.
+                                    <h4 align="left"><u>Course Schedule</u></h4>
+                                    <p align="justify" class="header-gap">
+                                    We require minimum 4 to 5 candidates to arrange this course, for more clarification please contact to us.
                                     </p>
                                 </div>
 
