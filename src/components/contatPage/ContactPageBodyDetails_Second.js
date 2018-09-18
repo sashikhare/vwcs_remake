@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
-import GoogleMapReact from 'google-map-react';
+
+
 
 
 import "../../css/linearicons.css"
@@ -16,13 +16,13 @@ import "../../css/main.css"
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 class ContactPageBodyDetails_Second extends React.Component {
-	
+
 	render() {
 		return (
 			<section class="contact-page-area section-gap">
 				<div class="container">
 					<div class="row">
-						
+
 						<div class="col-lg-4 d-flex flex-column address-wrap">
 							<div class="single-contact-address d-flex flex-row">
 								<div class="icon">

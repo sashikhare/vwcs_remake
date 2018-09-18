@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
@@ -12,22 +12,22 @@ import FooterDetails from "./components/genric/FooterDetails"
 
 
 class CourseEightPage extends React.Component {
-    render() {
-      return (
-          
-        <div>
-          
-          <CourseEightPageBodyDetails_First></CourseEightPageBodyDetails_First>
-          <CourseEightPageBodyDetails_Second></CourseEightPageBodyDetails_Second>
-          
-          
-          <FooterDetails></FooterDetails>
-          
-        </div>
-        
-      );
-    }
-  }
+  render() {
+    return (
 
-  export default CourseEightPage
+      <div>
+
+        <CourseEightPageBodyDetails_First></CourseEightPageBodyDetails_First>
+        <CourseEightPageBodyDetails_Second></CourseEightPageBodyDetails_Second>
+
+
+        <FooterDetails></FooterDetails>
+
+      </div>
+
+    );
+  }
+}
+
+export default CourseEightPage
 

@@ -1,30 +1,31 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import HeaderDetails from "./components/genric/HeaderDetails"
-import BodyDetails_First from "./components/genric/BodyDetails_First"
-import HomePageBodyDetails_Second from "./components/homePage/HomePageBodyDetails_Second"
-import HomePageBodyDetails_Third from "./components/homePage/HomePageBodyDetails_Third"
+
+import AboutusPageBodyDetails_First from "./components/aboutUsPage/AboutusPageBodyDetails_First"
+import AboutusPageBodyDetails_Second from "./components/aboutUsPage/AboutusPageBodyDetails_Second"
+
 import FooterDetails from "./components/genric/FooterDetails"
 
 
 
 class AboutusPage extends React.Component {
-    render() {
-      return (
-          
-        <div>
-          <HeaderDetails></HeaderDetails>
-          
-          <FooterDetails></FooterDetails>
-        </div>
-        
-      );
-    }
-  }
+  render() {
+    return (
 
-  export default AboutusPage
+      <div>
+        <AboutusPageBodyDetails_First></AboutusPageBodyDetails_First>
+        <AboutusPageBodyDetails_Second></AboutusPageBodyDetails_Second>
+
+        <FooterDetails></FooterDetails>
+      </div>
+
+    );
+  }
+}
+
+export default AboutusPage
 

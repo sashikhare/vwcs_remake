@@ -4092,3 +4092,21 @@ dl.toggle.time-line:before{
     font-size: 10px;
     color: #ff0404;
 }
+.directorimg {
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.dirimg {
+    width: 159px;
+    height: 167px;
+}
+.directortext {
+    width: 30%;
+    height: 200px;
+    float: left;
+    padding-top: 50px;
+}
+.director-name{
+    color: #f7631b;
+}

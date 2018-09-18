@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+
 
 
 import "../../css/linearicons.css"
@@ -22,7 +21,7 @@ class CourseOnePageBodyDetails_Second extends React.Component {
                             <div class="title text-center">
 
                                 <h1 class="mb-10">IWCF Course</h1>
-                                
+
                                 <div>
                                     <h4 align="left"><u>Course Details</u></h4>
                                     <p>
@@ -69,13 +68,13 @@ class CourseOnePageBodyDetails_Second extends React.Component {
                                         <h5 align="left" class="header-gap">USD : $ 1,500 + GST</h5>
                                     </p>
                                     <p align="justify">
-                                    Fee including registration and exam fee, breakfast, tea/coffee, lunch, evening snacks, study material, stationeries. This fee does not include accommodation and transportation.
+                                        Fee including registration and exam fee, breakfast, tea/coffee, lunch, evening snacks, study material, stationeries. This fee does not include accommodation and transportation.
                                     </p>
                                 </div>
                                 <div>
-                                <h4 align="left"><u>Course Schedule</u></h4>
+                                    <h4 align="left"><u>Course Schedule</u></h4>
                                     <p align="justify" class="header-gap">
-                                    We require minimum 4 to 5 candidates to arrange this course, for more clarification please contact to us.
+                                        We require minimum 4 to 5 candidates to arrange this course, for more clarification please contact to us.
                                     </p>
                                 </div>
 

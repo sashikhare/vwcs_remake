@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
@@ -14,19 +14,19 @@ import FooterDetails from "./components/genric/FooterDetails"
 
 
 class HomePage extends React.Component {
-    render() {
-      return (
-          
-        <div>
-          
-          <BodyDetails_First></BodyDetails_First>
-          <HomePageBodyDetails_Second></HomePageBodyDetails_Second>
-          <HomePageBodyDetails_Third></HomePageBodyDetails_Third>
-          <FooterDetails></FooterDetails>
-        </div>
-        
-      );
-    }
+  render() {
+    return (
+
+      <div>
+
+        <BodyDetails_First></BodyDetails_First>
+        <HomePageBodyDetails_Second></HomePageBodyDetails_Second>
+        <HomePageBodyDetails_Third></HomePageBodyDetails_Third>
+        <FooterDetails></FooterDetails>
+      </div>
+
+    );
   }
-  export default HomePage
+}
+export default HomePage
 

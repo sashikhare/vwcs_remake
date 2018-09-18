@@ -12,7 +12,7 @@ import "../../css/animate.min.css";
 import "../../css/owl.carousel.css"
 import "../../css/jquery-ui.css"
 import "../../css/main.css"
-class CourseEightPageBodyDetails_First extends React.Component {
+class GalleryPageBodyDetails_First extends React.Component {
 	render() {
 		return (
 			<section class="banner-area relative about-banner" id="home">
@@ -21,9 +21,9 @@ class CourseEightPageBodyDetails_First extends React.Component {
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								HSC Rig Pass
+								Gallery
 							</h1>
-							<p class="text-white link-nav"><Link to="/">Home</Link> <span class="lnr lnr-arrow-right"></span>  <Link to="/courses"> Schedule</Link></p>
+							<p class="text-white link-nav"><Link to="/">Home</Link> <span class="lnr lnr-arrow-right"></span> <Link to="/gallery">Gallery</Link></p>
 						</div>
 					</div>
 				</div>
@@ -34,4 +34,4 @@ class CourseEightPageBodyDetails_First extends React.Component {
 	}
 }
 
-export default CourseEightPageBodyDetails_First;
+export default GalleryPageBodyDetails_First;

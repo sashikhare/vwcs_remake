@@ -26,26 +26,25 @@ import OnlineCoursesPage from "./onlineCourses"
 
 
 
+
 import HeaderDetails from "./components/genric/HeaderDetails"
-import BodyDetails_First from "./components/genric/BodyDetails_First"
-import HomePageBodyDetails_Second from "./components/homePage/HomePageBodyDetails_Second"
-import HomePageBodyDetails_Third from "./components/homePage/HomePageBodyDetails_Third"
-import FooterDetails from "./components/genric/FooterDetails"
+
 
 
 
 
 const rootElement = document.getElementById("root");
 class App extends React.Component {
-    render() {
-      return (
-          
-        
-          <Router>
-            <div>
+  render() {
+    return (
+
+
+      <Router>
+        <div>
+
           <HeaderDetails></HeaderDetails>
           <Switch>
-            <Route exact path="/" component={HomePage} /> 
+            <Route exact path="/" component={HomePage} />
             <Route exact path="/contact" component={ContactPage} />
             <Route exact path="/courses" component={CoursesPage} />
             <Route exact path="/schedule" component={SchedulePage} />
@@ -61,15 +60,16 @@ class App extends React.Component {
             <Route exact path="/courseEight" component={CourseEightPage} />
             <Route exact path="/studyMaterial" component={StudyMaterialPage} />
             <Route exact path="/onlineCourses" component={OnlineCoursesPage} />
-            
+
+
           </Switch>
-          </div>
-          </Router>
-          
-        
-        
-      );
-    }
+        </div>
+      </Router>
+
+
+
+    );
   }
+}
 ReactDOM.render(<App />, document.getElementById('root'));
 

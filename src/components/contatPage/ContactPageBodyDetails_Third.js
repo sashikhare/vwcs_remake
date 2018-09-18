@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
+
 import GoogleMapReact, { Marker } from 'google-map-react';
 
 

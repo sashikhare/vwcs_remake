@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM from "react-dom";
+import * as Scroll from 'react-scroll';
+
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 
@@ -13,8 +14,14 @@ import "../../css/owl.carousel.css"
 import "../../css/jquery-ui.css"
 import "../../css/main.css"
 
+let scroll     = Scroll.animateScroll;
+
 class CoursesPageBodyDetails_Second extends React.Component {
+	 backtotop = event => {
+		scroll.scrollToTop();
+	}
   render() {
+	
     return (
 		<section class="popular-courses-area section-gap courses-page">
 				<div class="container">
@@ -31,7 +38,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-                                    <Link to="/courseOne">	
+                                    <Link to="/courseOne" onClick={this.backtotop}>	
 									<img class="img-fluid" src="img/p1.jpg" alt="" />
                                     </Link>
 								    </div>
@@ -41,7 +48,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-								<Link to="/courseOne">
+								<Link to="/courseOne" onClick={this.backtotop}>
 									<h4>
                                     IWCF - Surface Stack
                                     <p>Level 2</p>
@@ -57,7 +64,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-                                    <Link to="/courseSecond">
+                                    <Link to="/courseSecond" onClick={this.backtotop}>
 									<img class="img-fluid" src="img/p3.jpg" alt="" />
                                     </Link>
 								</div>
@@ -67,7 +74,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-                            <Link to="/courseSecond">
+                            <Link to="/courseSecond" onClick={this.backtotop}>
 									<h4>
                                     IWCF - Combined Surface & Subsea Stack Level 2
                                 
@@ -82,7 +89,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-                                    <Link to="/courseThird">	
+                                    <Link to="/courseThird" onClick={this.backtotop}>	
 									<img class="img-fluid" src="img/p2.jpg" alt="" />
                                     </Link>
 								</div>
@@ -92,7 +99,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-                            <Link to="/courseThird">
+                            <Link to="/courseThird" onClick={this.backtotop}>
 									<h4>
                                     IWCF - Surface Stack
                                     <p>Level 3 & 4</p>
@@ -109,7 +116,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
                             
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-                                    <Link to="/courseFour">
+                                    <Link to="/courseFour" onClick={this.backtotop}>
 									<img class="img-fluid" src="img/p4.jpg" alt=""/>
                                     </Link>	
 								</div>
@@ -120,7 +127,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
                                							
 							</div>
 							<div class="details">
-                            <Link to="/courseFour">
+                            <Link to="/courseFour" onClick={this.backtotop}>
 									<h4>
                                     IWCF - Combined Surface & Subsea Stack: Level 3 & 4
 									</h4>
@@ -134,7 +141,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<Link to="/courseFive">	
+									<Link to="/courseFive" onClick={this.backtotop}>	
 									<img class="img-fluid" src="img/p5.jpg" alt=""/>
 									</Link>
 								</div>
@@ -144,7 +151,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-							<Link to="/courseFive">
+							<Link to="/courseFive" onClick={this.backtotop}>
 									<h4>
                                     IADC - Surface Stack
                                     <p>Introductory Level</p>
@@ -159,7 +166,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<Link to="/courseSix">	
+									<Link to="/courseSix" onClick={this.backtotop}>	
 									<img class="img-fluid" src="img/p6.jpg" alt=""/>
 									</Link>
 								</div>
@@ -170,7 +177,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							</div>
 							<div class="details">
 								
-								<Link to="/courseSix">	
+								<Link to="/courseSix" onClick={this.backtotop}>	
 									<h4>
                                     IADC - Surface Stack
                                     <p>Fundamental & Supervisory Level</p>
@@ -186,7 +193,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>
-									<Link to="/courseSeven">	
+									<Link to="/courseSeven" onClick={this.backtotop}>	
 									<img class="img-fluid" src="img/p7.jpg" alt=""/>
 									</Link>
 								</div>
@@ -196,7 +203,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-							<Link to="/courseSeven">
+							<Link to="/courseSeven" onClick={this.backtotop}>
 									<h4>
                                     IADC - Combined Surface & Subsea Stack: Fundamental & Supervisory Level
 									</h4>
@@ -210,7 +217,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 							<div class="thumb-wrap relative">
 								<div class="thumb relative">
 									<div class="overlay overlay-bg"></div>	
-									<Link to="/courseEight">
+									<Link to="/courseEight" onClick={this.backtotop}>
 									<img class="img-fluid" src="img/p8.jpg" alt=""/>
 									</Link>
 								</div>
@@ -220,7 +227,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
 								</div>									
 							</div>
 							<div class="details">
-							<Link to="/courseEight">
+							<Link to="/courseEight" onClick={this.backtotop}>
 									<h4>
                                     HSC Rig Pass
 									</h4>
