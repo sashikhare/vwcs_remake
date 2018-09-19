@@ -22,7 +22,7 @@ class GalleryPageBodyDetails_Second extends React.Component {
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="img-fluid" src="img/gallery/g1.jpg" alt="" />>
+										<img class="img-fluid" src="img/gallery/g1.jpg" alt="" />
 								</div>
 								</div>
 							</a>
@@ -32,7 +32,7 @@ class GalleryPageBodyDetails_Second extends React.Component {
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="img-fluid" src="img/gallery/g2.jpg" alt="" />>
+										<img class="img-fluid" src="img/gallery/g2.jpg" alt="" />
 								</div>
 								</div>
 							</a>
@@ -42,7 +42,7 @@ class GalleryPageBodyDetails_Second extends React.Component {
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="img-fluid" src="img/gallery/g3.jpg" alt="" />>
+										<img class="img-fluid" src="img/gallery/g3.jpg" alt="" />
 								</div>
 								</div>
 							</a>
@@ -52,7 +52,7 @@ class GalleryPageBodyDetails_Second extends React.Component {
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="img-fluid" src="img/gallery/g4.jpg" alt="" />>
+										<img class="img-fluid" src="img/gallery/g4.jpg" alt="" />
 								</div>
 								</div>
 							</a>
@@ -62,7 +62,7 @@ class GalleryPageBodyDetails_Second extends React.Component {
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="img-fluid" src="img/gallery/g5.jpg" alt="" />>
+										<img class="img-fluid" src="img/gallery/g5.jpg" alt="" />
 								</div>
 								</div>
 							</a>
@@ -72,7 +72,7 @@ class GalleryPageBodyDetails_Second extends React.Component {
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="img-fluid" src="img/gallery/g6.jpg" alt="" />>
+										<img class="img-fluid" src="img/gallery/g6.jpg" alt="" />
 								</div>
 								</div>
 							</a>
@@ -82,7 +82,7 @@ class GalleryPageBodyDetails_Second extends React.Component {
 								<div class="single-imgs relative">
 									<div class="overlay overlay-bg"></div>
 									<div class="relative">
-										<img class="img-fluid" src="img/gallery/g7.jpg" alt="" />>
+										<img class="img-fluid" src="img/gallery/g7.jpg" alt="" />
 								</div>
 								</div>
 							</a>

@@ -22,7 +22,7 @@ class FooterDetails extends React.Component {
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved to Vyas Well Control Sharp School.
                         </p>
 						<div class="col-lg-6 col-sm-12 footer-social">
-							<a href="https://www.facebook.com/Vyas-Well-Control-School-290344875122763/?modal=admin_todo_tour"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.facebook.com/vyaswellcontrolschool/"><i class="fa fa-facebook"></i></a>
 							
 							
 						</div>

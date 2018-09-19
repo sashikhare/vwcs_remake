@@ -30,7 +30,7 @@ return (
             <div class="row">
                <div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
                   <ul>
-                     <li><a href="https://www.facebook.com/Vyas-Well-Control-School-290344875122763/?modal=admin_todo_tour"><i class="fa fa-facebook"></i></a></li>
+                     <li><a href="https://www.facebook.com/vyaswellcontrolschool/"><i class="fa fa-facebook"></i></a></li>
                      
                   </ul>
                </div>

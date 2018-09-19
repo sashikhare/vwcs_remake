@@ -22,7 +22,7 @@ class ContactPageBodyDetails_Third extends React.Component {
 		center: {
 			lat: 19.113579,
 			lng: 72.862158,
-			key: "AIzaSyDYfwkApoC35ipNNiZkLkZDBgQfDB3U8Xg"
+			key: "AIzaSyDXG7p-SBffjB83tYH_BbSfdjq01ruPKW0"
 		},
 		zoom: 18
 	};

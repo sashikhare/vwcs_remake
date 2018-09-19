@@ -20,7 +20,7 @@ class StudyMaterialPageBodyDetails_Second extends React.Component {
                     <div class="row d-flex justify-content-center">
                         <div class="menu-content pb-80 col-lg-11">
                             <div class="title text-center">
-                                <h1 class="mb-10">Study Materials we offer</h1>
+                                <h1 class="mb-10">Refresher Courses Available</h1>
                                 <p>There is a moment in the life of any aspiring.</p>
                                 <p align="left">- Barriers Study Material<span class="study-link"><a href="http://www.oilschool.com/course/view.php?id=299">View Details</a></span></p>
                                 <p align="left">- Wireline Study Material<span class="study-link"><a href="http://www.oilschool.com/course/view.php?id=269">View Details</a></span></p>
