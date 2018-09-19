@@ -47,23 +47,26 @@ class ContactPageBodyDetails_Second extends React.Component {
 		this.setState({ message: event.target.value });
 	  };
 	  sendEmail = event => {
+			event.preventDefault();
 		alert("Thank you for enquiry");
-		var service_id = "sashikhare";
-		var template_id = "template_4j5BUMAI";
-		var userID = "user_LDkVscDCpQghJzQdxJpwi";
+		var service_id = "nishant_vyas";
+		var template_id = "template_xVzGpXSI";
+		var userID = "user_WDaa3ChBbzOfzlMdoZynf";
 	
 		var template_params = {
 		  from_name: this.state.name,
 		  from_email: this.state.email,
-		  reply_to: "sany.m@peopleinteractive.in",
+		  cc: "rucha.date@vwcs.in",
 		  from_mob: this.state.mob,
 		  message_html: this.state.message
 		};
 	
 		console.log(template_params);
 		emailjs.send(service_id, template_id, template_params, userID);
-		this.state.sentmessage = "Message sent";
-		this.setState({ sentmessage: this.state.sentmessage });
+		
+		this.setState({ name: '',email:'',mob:'',message:''});
+		
+		
 	  };
 
 	render() {
@@ -107,21 +110,21 @@ class ContactPageBodyDetails_Second extends React.Component {
 							</div>
 						</div>
 						<div class="col-lg-8">
-							<form class="form-area contact-form text-right" id="myForm" method="post">
+							<form class="form-area contact-form text-right" id="myForm" method="post" onSubmit={this.sendEmail}>
 								<div class="row">
 									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text" value={this.state.name} onChange={this.handleName}/>
+										<input name="name" maxlength="40" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text" value={this.state.name} onChange={this.handleName}/>
 
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email" value={this.state.email} onChange={this.handleEmail}/>
+										<input name="email" maxlength="50" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email" value={this.state.email} onChange={this.handleEmail}/>
 
-										<input name="mobileno" maxlength="14" placeholder="Enter mobile no" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text" value={this.state.mob} onChange={this.handleMob}/>
+										<input name="mobileno" maxlength="13" placeholder="Enter mobile no" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text" value={this.state.mob} onChange={this.handleMob}/>
 									</div>
 									<div class="col-lg-6 form-group">
 										<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required="" value={this.state.message} onChange={this.handleMessage}></textarea>
 									</div>
 									<div class="col-lg-12">
 										<div class="alert-msg"></div>
-										<Link to="/" onClick={this.backtotop}><label class="genric-btn primary" onClick={this.sendEmail}>Send Message</label></Link>
+										<button class="genric-btn primary">Send Message</button>
 									</div>
 								</div>
 							</form>

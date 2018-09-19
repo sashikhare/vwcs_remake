@@ -23,16 +23,15 @@ class HeaderDetails extends React.Component {
 render() {
 return (
 <div>
+<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>
    <header id="header" id="home">
       <div class="header-top">
          <div class="container">
             <div class="row">
                <div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
                   <ul>
-                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                     <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                     <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                     <li><a href="https://www.facebook.com/Vyas-Well-Control-School-290344875122763/?modal=admin_todo_tour"><i class="fa fa-facebook"></i></a></li>
+                     
                   </ul>
                </div>
                <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
@@ -53,7 +52,7 @@ return (
                      <Link to="/" onClick={this.backtotop}>
                      Home</Link>
                   </li>
-                  <li class="menu-has-children">
+                  <li>
                      <Link to="/courses" onClick={this.backtotop}>
                      Courses</Link>
                   </li>
@@ -65,10 +64,10 @@ return (
                      <Link to="/studyMaterial" onClick={this.backtotop}>
                      Study Material</Link>
                   </li>
-                  <li>
+                  <li class="menu-has-children">
                      <Link to="/courses" onClick={this.backtotop}>
                      Schedule</Link>
-                     <ul>
+                     <ul class="submenu">
                         <li>
                            <Link to="/courseOne" onClick={this.backtotop}>
                            IWCF - Surface Stack: Level 2</Link>
@@ -87,7 +86,7 @@ return (
                         </li>
                         <li>
                            <Link to="/courseFive" onClick={this.backtotop}>
-                           ADC - Surface Stack: Introductory Level</Link>
+                           IADC - Surface Stack: Introductory Level</Link>
                         </li>
                         <li>
                            <Link to="/courseSix" onClick={this.backtotop}>

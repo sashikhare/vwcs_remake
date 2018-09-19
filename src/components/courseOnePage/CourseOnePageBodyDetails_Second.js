@@ -64,11 +64,10 @@ class CourseOnePageBodyDetails_Second extends React.Component {
                                 <div>
                                     <h4 align="left"><u>Course Fees</u></h4>
                                     <p>
-                                        <h5 align="left" class="header-gap">INR : ₹ 15,000 + GST</h5>
-                                        <h5 align="left" class="header-gap">USD : $ 1,500 + GST</h5>
+                                        <h5 align="left" class="header-gap">INR : ₹ 55,000 + 18% GST, Total is <u>₹ 64,900</u></h5>
                                     </p>
                                     <p align="justify">
-                                        Fee including registration and exam fee, breakfast, tea/coffee, lunch, evening snacks, study material, stationeries. This fee does not include accommodation and transportation.
+                                        Fee including registration and exam fee, breakfast, lunch, high tea, study material, stationeries. This fee does not include accommodation and transportation.
                                     </p>
                                 </div>
                                 <div>

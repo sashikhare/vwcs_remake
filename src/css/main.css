@@ -1804,7 +1804,7 @@ h1,h2,h3,h4,h5,h6{
     margin-top:0
 }
 #mobile-nav-toggle{
-    position:fixed;
+    position:absolute;
     right:15px;
     z-index:999;
     top:62px;
@@ -1817,7 +1817,7 @@ h1,h2,h3,h4,h5,h6{
     cursor:pointer
 }
 #mobile-nav-toggle i{
-    color:#fff;
+    color:#131212;
     font-weight:900
 }
 @media (max-width: 960px){
@@ -4110,3 +4110,11 @@ dl.toggle.time-line:before{
 .director-name{
     color: #f7631b;
 }
+.menu-has-children .submenu{
+    margin-top: 2px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-md {
+      display: none !important;
+    }
+  }
