@@ -25,7 +25,7 @@ class AboutusPageBodyDetails_Second extends React.Component {
 
                                 <div class="directorimg header-gap">
                                     <p>
-                                        <img src="images/director1.jpg" class="dirimg" />
+                                        <img src="img/d1.jpg" class="dirimg" />
                                     </p>
                                 </div>
                                 <div class="directortext">
@@ -41,7 +41,7 @@ class AboutusPageBodyDetails_Second extends React.Component {
 
                                 <div class="directorimg header-gap">
                                     <p>
-                                        <img src="images/director1.jpg" class="dirimg" />
+                                        <img src="img/d2.jpg" class="dirimg" />
                                     </p>
                                 </div>
                                 <div class="directortext">
@@ -60,7 +60,7 @@ class AboutusPageBodyDetails_Second extends React.Component {
 
                                 <div class="directorimg header-gap">
                                     <p>
-                                        <img src="images/director1.jpg" class="dirimg" />
+                                        <img src="img/d3.jpg" class="dirimg" />
                                     </p>
                                 </div>
                                 <div class="directortext">
@@ -76,7 +76,7 @@ class AboutusPageBodyDetails_Second extends React.Component {
 
                                 <div class="directorimg header-gap">
                                     <p>
-                                        <img src="images/director1.jpg" class="dirimg" />
+                                        <img src="img/d4.jpg" class="dirimg" />
                                     </p>
                                 </div>
                                 <div class="directortext">
