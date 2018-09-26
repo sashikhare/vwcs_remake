@@ -103,7 +103,7 @@ class AboutusPageBodyDetails_Second extends React.Component {
                         <div class="menu-content pb-80 col-lg-11">
                             <div class="title text-center">
 
-                                <h1 class="mb-10">Our Certificate</h1>
+                                <h1 class="mb-10">Our Certificates</h1>
 
                                 <div class="directorimg header-gap">
                                     <p>
