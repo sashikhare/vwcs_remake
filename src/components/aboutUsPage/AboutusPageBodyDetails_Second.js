@@ -90,6 +90,51 @@ class AboutusPageBodyDetails_Second extends React.Component {
 
                                 </div>
 
+
+                            </div>
+                            <div class="clear-fix">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-80 col-lg-11">
+                            <div class="title text-center">
+
+                                <h1 class="mb-10">Our Certificate</h1>
+
+                                <div class="directorimg header-gap">
+                                    <p>
+                                        <img src="img/cert1.jpg" class="cirimg" />
+                                    </p>
+                                </div>
+                                <div class="directortext">
+                                    <p>
+                                        <h4 class="director-name">International Association of Drilling Contractors</h4>
+
+                                        <h5>(IDAC: Certificate of Accreditation)</h5>
+
+                                    </p>
+
+                                </div>
+
+                                <div class="directorimg header-gap">
+                                    <p>
+                                        <img src="img/cert2.jpg" class="cirimg" />
+                                    </p>
+                                </div>
+                                <div class="directortext">
+                                    <p>
+                                        <h4 class="director-name">International Well Control Forum</h4>
+
+                                        <h5>(IWCF: Certificate of Membership)</h5>
+
+                        
+                                    </p>
+
+                                </div>
                             </div>
                             <div class="clear-fix">
 

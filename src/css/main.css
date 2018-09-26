@@ -4101,6 +4101,10 @@ dl.toggle.time-line:before{
     width: 159px;
     height: 167px;
 }
+.cirimg {
+    width: 200px;
+    height: 150px;
+}
 .directortext {
     width: 30%;
     height: 200px;
