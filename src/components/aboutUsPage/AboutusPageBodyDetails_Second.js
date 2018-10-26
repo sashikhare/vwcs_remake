@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import "../../css/linearicons.css";
-import "../../css/font-awesome.min.css";
-import "../../css/bootstrap.css";
-import "../../css/magnific-popup.css";
-import "../../css/nice-select.css";
-import "../../css/animate.min.css";
-import "../../css/owl.carousel.css";
-import "../../css/jquery-ui.css";
-import "../../css/main.css";
+import React, { Component } from 'react';
+import '../../css/linearicons.css';
+import '../../css/font-awesome.min.css';
+import '../../css/bootstrap.css';
+import '../../css/magnific-popup.css';
+import '../../css/nice-select.css';
+import '../../css/animate.min.css';
+import '../../css/owl.carousel.css';
+import '../../css/jquery-ui.css';
+import '../../css/main.css';
 class AboutusPageBodyDetails_Second extends React.Component {
   render() {
     return (
@@ -92,9 +92,7 @@ class AboutusPageBodyDetails_Second extends React.Component {
                 </div>
                 <div class="directortext">
                   <p>
-                    <h4 class="director-name">
-                      International Association of Drilling Contractors
-                    </h4>
+                    <h4 class="director-name">International Association of Drilling Contractors</h4>
 
                     <h5>(IDAC: Certificate of Accreditation)</h5>
                   </p>
@@ -106,9 +104,7 @@ class AboutusPageBodyDetails_Second extends React.Component {
                 </div>
                 <div class="directortext">
                   <p>
-                    <h4 class="director-name">
-                      International Well Control Forum
-                    </h4>
+                    <h4 class="director-name">International Well Control Forum</h4>
 
                     <h5>(IWCF: Certificate of Membership)</h5>
                   </p>

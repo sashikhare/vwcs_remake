@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import * as Scroll from "react-scroll";
+import React, { Component } from 'react';
+import * as Scroll from 'react-scroll';
 
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
-import "../../css/linearicons.css";
-import "../../css/font-awesome.min.css";
-import "../../css/bootstrap.css";
-import "../../css/magnific-popup.css";
-import "../../css/nice-select.css";
-import "../../css/animate.min.css";
-import "../../css/owl.carousel.css";
-import "../../css/jquery-ui.css";
-import "../../css/main.css";
+import '../../css/linearicons.css';
+import '../../css/font-awesome.min.css';
+import '../../css/bootstrap.css';
+import '../../css/magnific-popup.css';
+import '../../css/nice-select.css';
+import '../../css/animate.min.css';
+import '../../css/owl.carousel.css';
+import '../../css/jquery-ui.css';
+import '../../css/main.css';
 
 let scroll = Scroll.animateScroll;
 
@@ -58,10 +58,8 @@ class CoursesPageBodyDetails_Second extends React.Component {
                   </h4>
                 </Link>
                 <p align="justify">
-                  The objective is to lay a solid foundation in well control
-                  concepts and competency for entry-level rig operation
-                  positions as well as those not directly associated with rig
-                  operation, such as office personnel
+                  The objective is to lay a solid foundation in well control concepts and competency for entry-level rig operation positions
+                  as well as those not directly associated with rig operation, such as office personnel
                 </p>
               </div>
             </div>
@@ -88,10 +86,8 @@ class CoursesPageBodyDetails_Second extends React.Component {
                   <h4>IWCF - Combined Surface & Subsea Stack Level 2</h4>
                 </Link>
                 <p align="justify">
-                  The objective of this training is to increase the candidates
-                  knowledge and understanding of well control theory, practice
-                  and equipment.It's recommended for those who taking IWCF Well
-                  Control Course in L3 & L4
+                  The objective of this training is to increase the candidates knowledge and understanding of well control theory, practice
+                  and equipment.It's recommended for those who taking IWCF Well Control Course in L3 & L4
                 </p>
               </div>
             </div>
@@ -121,10 +117,8 @@ class CoursesPageBodyDetails_Second extends React.Component {
                   </h4>
                 </Link>
                 <p align="justify">
-                  The objective of this course is to teach well control
-                  competency to drillers and others requiring a Level 3
-                  certification. A secondary objective is to prepare
-                  participants for the IWCF Well Control exams.
+                  The objective of this course is to teach well control competency to drillers and others requiring a Level 3 certification.
+                  A secondary objective is to prepare participants for the IWCF Well Control exams.
                 </p>
               </div>
             </div>
@@ -152,10 +146,8 @@ class CoursesPageBodyDetails_Second extends React.Component {
                   <h4>IWCF - Combined Surface & Subsea Stack: Level 3 & 4</h4>
                 </Link>
                 <p align="justify">
-                  The objective of this course is to teach well control
-                  competency to drillers and others requiring a Level 3
-                  certification. A secondary objective is to prepare
-                  participants for the IWCF Well Control exams.
+                  The objective of this course is to teach well control competency to drillers and others requiring a Level 3 certification.
+                  A secondary objective is to prepare participants for the IWCF Well Control exams.
                 </p>
               </div>
             </div>
@@ -185,10 +177,8 @@ class CoursesPageBodyDetails_Second extends React.Component {
                   </h4>
                 </Link>
                 <p align="justify">
-                  This course is strongly recommended for first time well
-                  control candidates and prior to taking IADC Well Cap Course in
-                  Fundamental Level & Supervisory Level.This help's the
-                  candidate to deal with most critical situations.
+                  This course is strongly recommended for first time well control candidates and prior to taking IADC Well Cap Course in
+                  Fundamental Level & Supervisory Level.This help's the candidate to deal with most critical situations.
                 </p>
               </div>
             </div>
@@ -219,9 +209,8 @@ class CoursesPageBodyDetails_Second extends React.Component {
                 </Link>
 
                 <p align="justify">
-                  A secondary objective is to prepare participants for the IADC
-                  Well Cap exams.Certification is given for Surface or Combined
-                  Surface and Subsea
+                  A secondary objective is to prepare participants for the IADC Well Cap exams.Certification is given for Surface or
+                  Combined Surface and Subsea
                 </p>
               </div>
             </div>
@@ -245,15 +234,9 @@ class CoursesPageBodyDetails_Second extends React.Component {
               </div>
               <div class="details">
                 <Link to="/courseSeven" onClick={this.backtotop}>
-                  <h4>
-                    IADC - Combined Surface & Subsea Stack: Fundamental &
-                    Supervisory Level
-                  </h4>
+                  <h4>IADC - Combined Surface & Subsea Stack: Fundamental & Supervisory Level</h4>
                 </Link>
-                <p>
-                  When television was young, there was a hugely popular show
-                  based on the still popular fictional characte
-                </p>
+                <p>When television was young, there was a hugely popular show based on the still popular fictional characte</p>
               </div>
             </div>
             <div class="single-popular-carusel col-lg-3 col-md-6">
@@ -279,8 +262,7 @@ class CoursesPageBodyDetails_Second extends React.Component {
                   <h4>HSC Rig Pass</h4>
                 </Link>
                 <div class="container">
-                  When television was young, there was a hugely popular show
-                  based on the still popular fictional characte
+                  When television was young, there was a hugely popular show based on the still popular fictional characte
                 </div>
               </div>
             </div>

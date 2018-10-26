@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "../../css/linearicons.css";
-import "../../css/font-awesome.min.css";
-import "../../css/bootstrap.css";
-import "../../css/magnific-popup.css";
-import "../../css/nice-select.css";
-import "../../css/animate.min.css";
-import "../../css/owl.carousel.css";
-import "../../css/jquery-ui.css";
-import "../../css/main.css";
-import Link from "react-router-dom/Link";
+import '../../css/linearicons.css';
+import '../../css/font-awesome.min.css';
+import '../../css/bootstrap.css';
+import '../../css/magnific-popup.css';
+import '../../css/nice-select.css';
+import '../../css/animate.min.css';
+import '../../css/owl.carousel.css';
+import '../../css/jquery-ui.css';
+import '../../css/main.css';
+import Link from 'react-router-dom/Link';
 class StudyMaterialPageBodyDetails_First extends React.Component {
   render() {
     return (
@@ -20,8 +20,7 @@ class StudyMaterialPageBodyDetails_First extends React.Component {
             <div class="about-content col-lg-12">
               <h1 class="text-white">Study Material</h1>
               <p class="text-white link-nav">
-                <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" />{" "}
-                <Link to="/studyMaterial"> Study Material</Link>
+                <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" /> <Link to="/studyMaterial"> Study Material</Link>
               </p>
             </div>
           </div>

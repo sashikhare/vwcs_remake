@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import * as Scroll from "react-scroll";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import React, { Component } from 'react';
+import * as Scroll from 'react-scroll';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 //import {withRouter} from 'react-router-dom'
 
-import "../../css/font_google.css";
-import "../../css/linearicons.css";
-import "../../css/font-awesome.min.css";
-import "../../css/bootstrap.css";
-import "../../css/magnific-popup.css";
-import "../../css/nice-select.css";
-import "../../css/animate.min.css";
-import "../../css/owl.carousel.css";
-import "../../css/jquery-ui.css";
-import "../../css/main.css";
+import '../../css/font_google.css';
+import '../../css/linearicons.css';
+import '../../css/font-awesome.min.css';
+import '../../css/bootstrap.css';
+import '../../css/magnific-popup.css';
+import '../../css/nice-select.css';
+import '../../css/animate.min.css';
+import '../../css/owl.carousel.css';
+import '../../css/jquery-ui.css';
+import '../../css/main.css';
 
 let scroll = Scroll.animateScroll;
 class HeaderDetails extends React.Component {
@@ -40,12 +40,10 @@ class HeaderDetails extends React.Component {
                 </div>
                 <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
                   <Link to="/" onClick={this.backtotop}>
-                    <span class="lnr lnr-phone-handset" />{" "}
-                    <span class="text">+91-9619123321/+91-9004935111</span>
+                    <span class="lnr lnr-phone-handset" /> <span class="text">+91-9619123321/+91-9004935111</span>
                   </Link>
                   <Link to="/" onClick={this.backtotop}>
-                    <span class="lnr lnr-envelope" />{" "}
-                    <span class="text">info@vwcs.in</span>
+                    <span class="lnr lnr-envelope" /> <span class="text">info@vwcs.in</span>
                   </Link>
                 </div>
               </div>
@@ -117,8 +115,7 @@ class HeaderDetails extends React.Component {
                       </li>
                       <li>
                         <Link to="/courseSeven" onClick={this.backtotop}>
-                          IADC - Combined Surface & Subsea Stack: Fundamental &
-                          Supervisory Level
+                          IADC - Combined Surface & Subsea Stack: Fundamental & Supervisory Level
                         </Link>
                       </li>
                       <li>

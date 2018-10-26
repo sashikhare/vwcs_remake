@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "../../css/linearicons.css";
-import "../../css/font-awesome.min.css";
-import "../../css/bootstrap.css";
-import "../../css/magnific-popup.css";
-import "../../css/nice-select.css";
-import "../../css/animate.min.css";
-import "../../css/owl.carousel.css";
-import "../../css/jquery-ui.css";
-import "../../css/main.css";
+import '../../css/linearicons.css';
+import '../../css/font-awesome.min.css';
+import '../../css/bootstrap.css';
+import '../../css/magnific-popup.css';
+import '../../css/nice-select.css';
+import '../../css/animate.min.css';
+import '../../css/owl.carousel.css';
+import '../../css/jquery-ui.css';
+import '../../css/main.css';
 class BodyDetails_First extends React.Component {
   render() {
     return (
@@ -27,12 +27,9 @@ class BodyDetails_First extends React.Component {
                 <a href="#" class="primary-btn text-uppercase" />
               </p>
 
-              <h1 class="text-uppercase">
-                We Ensure better education for a better world
-              </h1>
+              <h1 class="text-uppercase">We Ensure better education for a better world</h1>
               <p class="pt-10 pb-10">
-                In the history of modern astronomy, there is probably no one
-                greater leap forward than the building and launch of the space
+                In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space
                 telescope known as the Hubble.
               </p>
 

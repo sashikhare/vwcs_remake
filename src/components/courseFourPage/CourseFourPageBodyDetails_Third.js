@@ -1,14 +1,14 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "../../css/linearicons.css";
-import "../../css/font-awesome.min.css";
-import "../../css/bootstrap.css";
-import "../../css/magnific-popup.css";
-import "../../css/nice-select.css";
-import "../../css/animate.min.css";
-import "../../css/owl.carousel.css";
-import "../../css/jquery-ui.css";
-import "../../css/main.css";
+import '../../css/linearicons.css';
+import '../../css/font-awesome.min.css';
+import '../../css/bootstrap.css';
+import '../../css/magnific-popup.css';
+import '../../css/nice-select.css';
+import '../../css/animate.min.css';
+import '../../css/owl.carousel.css';
+import '../../css/jquery-ui.css';
+import '../../css/main.css';
 class CourseFourPageBodyDetails_Third extends React.Component {
   constructor(props) {
     super(props);
@@ -16,18 +16,18 @@ class CourseFourPageBodyDetails_Third extends React.Component {
     this.state = {
       isLoading: true,
       date: null,
-      error: null
+      error: null,
     };
   }
   componentDidMount() {
-    fetch("http://localhost:3000/courseFour_api")
+    fetch('http://localhost:3000/courseFour_api')
       .then(response => response.json())
       .then(data => this.setState({ date: data, isLoading: false }))
       .catch(error => this.setState({ error, isLoading: false }));
   }
 
   render() {
-    console.log("Data", this.state.date);
+    console.log('Data', this.state.date);
     const { isLoading, date, error } = this.state;
     return (
       <section>
@@ -55,11 +55,7 @@ class CourseFourPageBodyDetails_Third extends React.Component {
 
               {!isLoading && date
                 ? date.result.map(user => {
-                    const {
-                      course_start_date,
-                      course_end_date,
-                      Location
-                    } = user;
+                    const { course_start_date, course_end_date, Location } = user;
                     return (
                       <tr widith="70%">
                         <td>{course_start_date}</td>

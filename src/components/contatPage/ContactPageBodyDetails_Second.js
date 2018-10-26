@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import * as emailjs from "emailjs-com";
-import * as Scroll from "react-scroll";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import * as emailjs from 'emailjs-com';
+import * as Scroll from 'react-scroll';
 
-import "../../css/linearicons.css";
-import "../../css/font-awesome.min.css";
-import "../../css/bootstrap.css";
-import "../../css/magnific-popup.css";
-import "../../css/nice-select.css";
-import "../../css/animate.min.css";
-import "../../css/owl.carousel.css";
-import "../../css/jquery-ui.css";
-import "../../css/main.css";
+import '../../css/linearicons.css';
+import '../../css/font-awesome.min.css';
+import '../../css/bootstrap.css';
+import '../../css/magnific-popup.css';
+import '../../css/nice-select.css';
+import '../../css/animate.min.css';
+import '../../css/owl.carousel.css';
+import '../../css/jquery-ui.css';
+import '../../css/main.css';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 let scroll = Scroll.animateScroll;
@@ -22,10 +22,10 @@ class ContactPageBodyDetails_Second extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: "",
-      name: "",
-      mob: "",
-      message: ""
+      email: '',
+      name: '',
+      mob: '',
+      message: '',
     };
 
     this.handleName = this.handleName.bind(this);
@@ -47,23 +47,23 @@ class ContactPageBodyDetails_Second extends React.Component {
   };
   sendEmail = event => {
     event.preventDefault();
-    alert("Thank you for enquiry");
-    var service_id = "nishant_vyas";
-    var template_id = "template_xVzGpXSI";
-    var userID = "user_WDaa3ChBbzOfzlMdoZynf";
+    alert('Thank you for enquiry');
+    var service_id = 'nishant_vyas';
+    var template_id = 'template_xVzGpXSI';
+    var userID = 'user_WDaa3ChBbzOfzlMdoZynf';
 
     var template_params = {
       from_name: this.state.name,
       from_email: this.state.email,
-      cc: "rucha.date@vwcs.in",
+      cc: 'rucha.date@vwcs.in',
       from_mob: this.state.mob,
-      message_html: this.state.message
+      message_html: this.state.message,
     };
 
     console.log(template_params);
     emailjs.send(service_id, template_id, template_params, userID);
 
-    this.setState({ name: "", email: "", mob: "", message: "" });
+    this.setState({ name: '', email: '', mob: '', message: '' });
   };
 
   render() {
@@ -78,10 +78,7 @@ class ContactPageBodyDetails_Second extends React.Component {
                 </div>
                 <div class="contact-details">
                   <h5>Mumbai, India</h5>
-                  <p>
-                    502/503, 5th Floor, Span Landmark Building, Andheri Kurla
-                    Road, Chakala, Andheri(East), Pincode 400093
-                  </p>
+                  <p>502/503, 5th Floor, Span Landmark Building, Andheri Kurla Road, Chakala, Andheri(East), Pincode 400093</p>
                 </div>
               </div>
               <div class="single-contact-address d-flex flex-row">
@@ -105,12 +102,7 @@ class ContactPageBodyDetails_Second extends React.Component {
               </div>
             </div>
             <div class="col-lg-8">
-              <form
-                class="form-area contact-form text-right"
-                id="myForm"
-                method="post"
-                onSubmit={this.sendEmail}
-              >
+              <form class="form-area contact-form text-right" id="myForm" method="post" onSubmit={this.sendEmail}>
                 <div class="row">
                   <div class="col-lg-6 form-group">
                     <input

@@ -1,16 +1,16 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
-import "../../css/linearicons.css";
-import "../../css/font-awesome.min.css";
-import "../../css/bootstrap.css";
-import "../../css/magnific-popup.css";
-import "../../css/nice-select.css";
-import "../../css/animate.min.css";
-import "../../css/owl.carousel.css";
-import "../../css/jquery-ui.css";
-import "../../css/main.css";
+import '../../css/linearicons.css';
+import '../../css/font-awesome.min.css';
+import '../../css/bootstrap.css';
+import '../../css/magnific-popup.css';
+import '../../css/nice-select.css';
+import '../../css/animate.min.css';
+import '../../css/owl.carousel.css';
+import '../../css/jquery-ui.css';
+import '../../css/main.css';
 class CourseFourPageBodyDetails_First extends React.Component {
   render() {
     return (
@@ -19,12 +19,9 @@ class CourseFourPageBodyDetails_First extends React.Component {
         <div class="container">
           <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
-              <h1 class="text-white">
-                IWCF - Combined Surface & Subsea Stack: Level 3 & 4
-              </h1>
+              <h1 class="text-white">IWCF - Combined Surface & Subsea Stack: Level 3 & 4</h1>
               <p class="text-white link-nav">
-                <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" />{" "}
-                <Link to="/courses"> Schedule</Link>
+                <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" /> <Link to="/courses"> Schedule</Link>
               </p>
             </div>
           </div>
