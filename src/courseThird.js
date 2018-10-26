@@ -15,8 +15,6 @@ class CourseThirdPage extends React.Component {
       <div>
         <CourseThirdPageBodyDetails_First />
         <CourseThirdPageBodyDetails_Second />
-
-        <FooterDetails />
       </div>
     );
   }

@@ -15,7 +15,6 @@ class StudyMaterialPage extends React.Component {
       <div>
         <StudyMaterialPageBodyDetails_First />
         <StudyMaterialPageBodyDetails_Second />
-        <FooterDetails />
       </div>
     );
   }

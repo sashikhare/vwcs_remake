@@ -15,8 +15,6 @@ class CourseFivePage extends React.Component {
       <div>
         <CourseFivePageBodyDetails_First />
         <CourseFivePageBodyDetails_Second />
-
-        <FooterDetails />
       </div>
     );
   }

@@ -15,8 +15,6 @@ class CourseEightPage extends React.Component {
       <div>
         <CourseEightPageBodyDetails_First />
         <CourseEightPageBodyDetails_Second />
-
-        <FooterDetails />
       </div>
     );
   }

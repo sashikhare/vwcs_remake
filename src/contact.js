@@ -16,7 +16,6 @@ class ContactPage extends React.Component {
         <ContactPageBodyDetails_First />
         <ContactPageBodyDetails_Third />
         <ContactPageBodyDetails_Second />
-        <FooterDetails />
       </div>
     );
   }

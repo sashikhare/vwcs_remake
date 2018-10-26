@@ -17,7 +17,6 @@ class HomePage extends React.Component {
         <BodyDetails_First />
         <HomePageBodyDetails_Second />
         <HomePageBodyDetails_Third />
-        <FooterDetails />
       </div>
     );
   }

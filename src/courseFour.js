@@ -15,8 +15,6 @@ class CourseFourPage extends React.Component {
       <div>
         <CourseFourPageBodyDetails_First />
         <CourseFourPageBodyDetails_Second />
-
-        <FooterDetails />
       </div>
     );
   }

@@ -15,8 +15,6 @@ class CourseSecondPage extends React.Component {
       <div>
         <CourseSecondPageBodyDetails_First />
         <CourseSecondPageBodyDetails_Second />
-
-        <FooterDetails />
       </div>
     );
   }

@@ -12,7 +12,6 @@ class CoursesPage extends React.Component {
       <div>
         <CoursesPageBodyDetails_First />
         <CoursePageBodyDetails_Second />
-        <FooterDetails />
       </div>
     );
   }

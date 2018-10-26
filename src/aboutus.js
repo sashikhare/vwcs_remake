@@ -15,8 +15,6 @@ class AboutusPage extends React.Component {
       <div>
         <AboutusPageBodyDetails_First />
         <AboutusPageBodyDetails_Second />
-
-        <FooterDetails />
       </div>
     );
   }

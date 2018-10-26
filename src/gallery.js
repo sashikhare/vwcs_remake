@@ -14,7 +14,6 @@ class GalleryPage extends React.Component {
       <div>
         <GalleryPageBodyDetails_First />
         <GalleryPageBodyDetails_Second />
-        <FooterDetails />
       </div>
     );
   }

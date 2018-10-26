@@ -25,6 +25,7 @@ import StudyMaterialPage from './studyMaterial';
 import OnlineCoursesPage from './onlineCourses';
 
 import HeaderDetails from './components/genric/HeaderDetails';
+import FooterDetails from './components/genric/FooterDetails';
 
 const rootElement = document.getElementById('root');
 class App extends React.Component {
@@ -51,6 +52,7 @@ class App extends React.Component {
             <Route exact path="/studyMaterial" component={StudyMaterialPage} />
             <Route exact path="/onlineCourses" component={OnlineCoursesPage} />
           </Switch>
+          <FooterDetails />
         </div>
       </Router>
     );
