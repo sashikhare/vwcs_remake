@@ -26,8 +26,8 @@ class AboutusPageBodyDetails_Second extends React.Component {
                 <div class="directortext">
                   <p>
                     <h4 class="director-name">Mr. R. D. Vyas </h4>
-                    <h5>(AMIE-Mechanical Engg) </h5>
-                    <h5>Chief Executive Officer </h5>
+                    <h5>(AMIE-Mechanical Engg)</h5>
+                    <h5>Chief Executive Officer</h5>
                   </p>
                 </div>
                 <div class="directorimg header-gap">
