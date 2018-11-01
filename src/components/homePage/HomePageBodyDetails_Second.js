@@ -11,7 +11,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class HomePageBodyDetails_Second extends React.Component {
+class HomePageBodyDetailsSecond extends React.Component {
   render() {
     return (
       //<!-- Start feature Area -->
@@ -68,4 +68,4 @@ class HomePageBodyDetails_Second extends React.Component {
   }
 }
 
-export default HomePageBodyDetails_Second;
+export default HomePageBodyDetailsSecond;

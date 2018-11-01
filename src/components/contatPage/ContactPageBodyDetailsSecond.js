@@ -15,7 +15,7 @@ import '../../css/main.css';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 let scroll = Scroll.animateScroll;
-class ContactPageBodyDetails_Second extends React.Component {
+class ContactPageBodyDetailsSecond extends React.Component {
   backtotop = event => {
     scroll.scrollToTop();
   };
@@ -170,4 +170,4 @@ class ContactPageBodyDetails_Second extends React.Component {
     );
   }
 }
-export default ContactPageBodyDetails_Second;
+export default ContactPageBodyDetailsSecond;

@@ -4,17 +4,15 @@ import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import OnlineCoursesPageBodyDetails_First from './components/onlineCoursesPage/OnlineCoursesPageBodyDetails_First';
-import OnlineCoursesPageBodyDetails_Second from './components/onlineCoursesPage/OnlineCoursesPageBodyDetails_Second';
-
-import FooterDetails from './components/genric/FooterDetails';
+import OnlineCoursesPageBodyDetailsFirst from './components/onlineCoursesPage/OnlineCoursesPageBodyDetailsFirst';
+import OnlineCoursesPageBodyDetailsSecond from './components/onlineCoursesPage/OnlineCoursesPageBodyDetailsSecond';
 
 class OnlineCoursesPage extends React.Component {
   render() {
     return (
       <div>
-        <OnlineCoursesPageBodyDetails_First />
-        <OnlineCoursesPageBodyDetails_Second />
+        <OnlineCoursesPageBodyDetailsFirst />
+        <OnlineCoursesPageBodyDetailsSecond />
       </div>
     );
   }

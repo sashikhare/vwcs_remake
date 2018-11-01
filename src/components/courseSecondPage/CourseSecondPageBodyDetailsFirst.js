@@ -11,7 +11,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class CourseSevenPageBodyDetails_First extends React.Component {
+class CourseSecondPageBodyDetailsFirst extends React.Component {
   render() {
     return (
       <section class="banner-area relative about-banner" id="home">
@@ -19,7 +19,7 @@ class CourseSevenPageBodyDetails_First extends React.Component {
         <div class="container">
           <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
-              <h1 class="text-white">IADC - Combined Surface & Subsea Stack: Fundamental & Supervisory Level</h1>
+              <h1 class="text-white">IWCF - Combined Surface & Subsea Stack: Level 2</h1>
               <p class="text-white link-nav">
                 <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" /> <Link to="/courses">Schedule</Link>
               </p>
@@ -31,4 +31,4 @@ class CourseSevenPageBodyDetails_First extends React.Component {
   }
 }
 
-export default CourseSevenPageBodyDetails_First;
+export default CourseSecondPageBodyDetailsFirst;

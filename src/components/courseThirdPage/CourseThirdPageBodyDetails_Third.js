@@ -9,7 +9,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class CourseThirdPageBodyDetails_Third extends React.Component {
+class CourseThirdPageBodyDetailsThird extends React.Component {
   constructor(props) {
     super(props);
 
@@ -73,4 +73,4 @@ class CourseThirdPageBodyDetails_Third extends React.Component {
   }
 }
 
-export default CourseThirdPageBodyDetails_Third;
+export default CourseThirdPageBodyDetailsThird;

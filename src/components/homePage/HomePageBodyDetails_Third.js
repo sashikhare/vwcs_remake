@@ -9,7 +9,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class HomePageBodyDetails_Third extends React.Component {
+class HomePageBodyDetailsThird extends React.Component {
   render() {
     return (
       //<!-- Start popular-course Area -->
@@ -38,4 +38,4 @@ class HomePageBodyDetails_Third extends React.Component {
   }
 }
 
-export default HomePageBodyDetails_Third;
+export default HomePageBodyDetailsThird;

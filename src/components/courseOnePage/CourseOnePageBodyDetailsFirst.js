@@ -11,7 +11,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class CourseOnePageBodyDetails_First extends React.Component {
+class CourseOnePageBodyDetailsFirst extends React.Component {
   render() {
     return (
       <section class="banner-area relative about-banner" id="home">
@@ -31,4 +31,4 @@ class CourseOnePageBodyDetails_First extends React.Component {
   }
 }
 
-export default CourseOnePageBodyDetails_First;
+export default CourseOnePageBodyDetailsFirst;

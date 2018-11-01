@@ -10,8 +10,8 @@ import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
 
-import CourseThirdPageBodyDetails_Third from './CourseThirdPageBodyDetails_Third';
-class CourseThirdPageBodyDetails_Second extends React.Component {
+import CourseThirdPageBodyDetailsThird from './CourseThirdPageBodyDetailsThird';
+class CourseThirdPageBodyDetailsSecond extends React.Component {
   render() {
     return (
       <section class="popular-courses-area section-gap courses-page">
@@ -130,7 +130,7 @@ class CourseThirdPageBodyDetails_Second extends React.Component {
                     <u>Upcoming Course Dates</u>
                   </h4>
                   <p>
-                    <CourseThirdPageBodyDetails_Third />
+                    <CourseThirdPageBodyDetailsThird />
                   </p>
                   <p align="justify" class="date-note">
                     * Dates are subject to change depending on IWCF's holidays.
@@ -146,4 +146,4 @@ class CourseThirdPageBodyDetails_Second extends React.Component {
   }
 }
 
-export default CourseThirdPageBodyDetails_Second;
+export default CourseThirdPageBodyDetailsSecond;

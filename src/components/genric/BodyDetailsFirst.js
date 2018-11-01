@@ -9,7 +9,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class BodyDetails_First extends React.Component {
+class BodyDetailsFirst extends React.Component {
   render() {
     return (
       <section class="banner-area relative" id="home">
@@ -50,4 +50,4 @@ class BodyDetails_First extends React.Component {
   }
 }
 
-export default BodyDetails_First;
+export default BodyDetailsFirst;

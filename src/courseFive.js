@@ -4,17 +4,15 @@ import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import CourseFivePageBodyDetails_First from './components/courseFivePage/CourseFivePageBodyDetails_First';
-import CourseFivePageBodyDetails_Second from './components/courseFivePage/CourseFivePageBodyDetails_Second';
-
-import FooterDetails from './components/genric/FooterDetails';
+import CourseFivePageBodyDetailsFirst from './components/courseFivePage/CourseFivePageBodyDetailsFirst';
+import CourseFivePageBodyDetailsSecond from './components/courseFivePage/CourseFivePageBodyDetailsSecond';
 
 class CourseFivePage extends React.Component {
   render() {
     return (
       <div>
-        <CourseFivePageBodyDetails_First />
-        <CourseFivePageBodyDetails_Second />
+        <CourseFivePageBodyDetailsFirst />
+        <CourseFivePageBodyDetailsSecond />
       </div>
     );
   }

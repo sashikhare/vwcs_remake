@@ -14,7 +14,7 @@ import '../../css/main.css';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-class ContactPageBodyDetails_Third extends React.Component {
+class ContactPageBodyDetailsThird extends React.Component {
   static defaultProps = {
     center: {
       lat: 19.113579,
@@ -50,4 +50,4 @@ class ContactPageBodyDetails_Third extends React.Component {
     );
   }
 }
-export default ContactPageBodyDetails_Third;
+export default ContactPageBodyDetailsThird;

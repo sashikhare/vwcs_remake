@@ -4,17 +4,15 @@ import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import CourseSixPageBodyDetails_First from './components/courseSixPage/CourseSixPageBodyDetails_First';
-import CourseSixPageBodyDetails_Second from './components/courseSixPage/CourseSixPageBodyDetails_Second';
-
-import FooterDetails from './components/genric/FooterDetails';
+import CourseSixPageBodyDetailsFirst from './components/courseSixPage/CourseSixPageBodyDetailsFirst';
+import CourseSixPageBodyDetailsSecond from './components/courseSixPage/CourseSixPageBodyDetailsSecond';
 
 class CourseSixPage extends React.Component {
   render() {
     return (
       <div>
-        <CourseSixPageBodyDetails_First />
-        <CourseSixPageBodyDetails_Second />
+        <CourseSixPageBodyDetailsFirst />
+        <CourseSixPageBodyDetailsSecond />
       </div>
     );
   }

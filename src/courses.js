@@ -2,16 +2,15 @@ import React from 'react';
 
 import './index.css';
 
-import CoursesPageBodyDetails_First from './components/coursesPage/CoursePageBodyDetails_First';
-import CoursePageBodyDetails_Second from './components/coursesPage/CoursePageBodyDetails_Second';
-import FooterDetails from './components/genric/FooterDetails';
+import CoursesPageBodyDetailsFirst from './components/coursesPage/CoursePageBodyDetailsFirst';
+import CoursePageBodyDetailsSecond from './components/coursesPage/CoursePageBodyDetailsSecond';
 
 class CoursesPage extends React.Component {
   render() {
     return (
       <div>
-        <CoursesPageBodyDetails_First />
-        <CoursePageBodyDetails_Second />
+        <CoursesPageBodyDetailsFirst />
+        <CoursePageBodyDetailsSecond />
       </div>
     );
   }

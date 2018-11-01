@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import CourseSixPageBodyDetails_Third from './CourseSixPageBodyDetails_Third';
+import CourseSixPageBodyDetailsThird from './CourseSixPageBodyDetailsThird';
 
 import '../../css/linearicons.css';
 import '../../css/font-awesome.min.css';
@@ -11,7 +11,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class CourseSixPageBodyDetails_Second extends React.Component {
+class CourseSixPageBodyDetailsSecond extends React.Component {
   render() {
     return (
       <section class="popular-courses-area section-gap courses-page">
@@ -130,7 +130,7 @@ class CourseSixPageBodyDetails_Second extends React.Component {
                     <u>Upcoming Course Dates</u>
                   </h4>
                   <p>
-                    <CourseSixPageBodyDetails_Third />
+                    <CourseSixPageBodyDetailsThird />
                   </p>
                   <p align="justify" class="date-note">
                     * Dates are subject to change depending on IDAC's holidays.
@@ -146,4 +146,4 @@ class CourseSixPageBodyDetails_Second extends React.Component {
   }
 }
 
-export default CourseSixPageBodyDetails_Second;
+export default CourseSixPageBodyDetailsSecond;

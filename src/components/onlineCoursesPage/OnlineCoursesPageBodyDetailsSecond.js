@@ -9,7 +9,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class OnlineCoursesPageBodyDetails_Second extends React.Component {
+class OnlineCoursesPageBodyDetailsSecond extends React.Component {
   render() {
     return (
       <section class="popular-courses-area section-gap courses-page">
@@ -62,4 +62,4 @@ class OnlineCoursesPageBodyDetails_Second extends React.Component {
   }
 }
 
-export default OnlineCoursesPageBodyDetails_Second;
+export default OnlineCoursesPageBodyDetailsSecond;

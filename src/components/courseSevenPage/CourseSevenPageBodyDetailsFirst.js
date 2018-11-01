@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+
 import '../../css/linearicons.css';
 import '../../css/font-awesome.min.css';
 import '../../css/bootstrap.css';
@@ -9,8 +11,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-import Link from 'react-router-dom/Link';
-class StudyMaterialPageBodyDetails_First extends React.Component {
+class CourseSevenPageBodyDetailsFirst extends React.Component {
   render() {
     return (
       <section class="banner-area relative about-banner" id="home">
@@ -18,9 +19,9 @@ class StudyMaterialPageBodyDetails_First extends React.Component {
         <div class="container">
           <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
-              <h1 class="text-white">Study Material</h1>
+              <h1 class="text-white">IADC - Combined Surface & Subsea Stack: Fundamental & Supervisory Level</h1>
               <p class="text-white link-nav">
-                <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" /> <Link to="/studyMaterial"> Study Material</Link>
+                <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" /> <Link to="/courses">Schedule</Link>
               </p>
             </div>
           </div>
@@ -30,4 +31,4 @@ class StudyMaterialPageBodyDetails_First extends React.Component {
   }
 }
 
-export default StudyMaterialPageBodyDetails_First;
+export default CourseSevenPageBodyDetailsFirst;

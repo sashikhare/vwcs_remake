@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import CourseFourPageBodyDetails_Third from './CourseFourPageBodyDetails_Third';
-
 import '../../css/linearicons.css';
 import '../../css/font-awesome.min.css';
 import '../../css/bootstrap.css';
@@ -11,18 +9,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class CourseFourPageBodyDetails_Second extends React.Component {
-  /*constructor(props) {
-        super(props)
-
-        this.state = {course_start_date: 'false',course_end_date:'false'};
-    }
-    componentDidMount()
-    {
-        getcourseOne_Schedule().then(console.log)
-        
-    }*/
-
+class CourseEightPageBodyDetailsSecond extends React.Component {
   render() {
     return (
       <section class="popular-courses-area section-gap courses-page">
@@ -38,50 +25,28 @@ class CourseFourPageBodyDetails_Second extends React.Component {
                   </h4>
                   <p>
                     <h5 align="left" class="header-gap">
-                      IWCF - Combined Surface & Subsea Stack: Level 3 & 4
+                      HSC Rig Pass
                     </h5>
-                    <h6 align="left">Duration : 5 Days</h6>
+                    <h6 align="left">Duration : 1 Days</h6>
                   </p>
                 </div>
                 <div>
                   <h4 align="left">
                     <u>Course Objective</u>
                   </h4>
-                  <h6 align="left" class="header-gap">
-                    Level : 3
-                  </h6>
                   <p class="header-gap" align="justify">
-                    The objective of this course is to teach well control competency to drillers and others requiring a Level 3
-                    certification. A secondary objective is to prepare participants for the IWCF Well Control exams. Certification is given
-                    for Surface or Combined Surface and Subsea. BOP equipment, kick detection, shut-in procedures, kill sheets, and methods
-                    of well control will be taught. The simulator work in the course focuses on detecting kicks, and closing in the well,
-                    and handling an assortment of simulated problems.
+                    The objective is to lay a solid foundation in well control concepts and competency for entry-level rig operation
+                    positions as well as those not directly associated with rig operation, such as office personnel. This course is strongly
+                    recommended for first time well control candidates and prior to taking IWCF Well Control Course in Level 3 and then
+                    Level 4. The objective of this training is to increase the candidates knowledge and understanding of well control
+                    theory, practice and equipment. This will help prepare the candidates to deal with most well control situations.
                   </p>
                   <p align="justify">
-                    The candidates will gain theoretical knowledge about well control and master practical skills necessary to apply the
-                    theoretical knowledge in blowout prevention and well control. At the end of this course, delegates should be able to
-                    demonstrate familiarity with an understanding of the simulation practical assessment, written examination in equipment,
-                    principles and procedures associated with rotary drilling well control in preparation for IWCF Well Control testing at
-                    Level 3. The successful candidate will be issued with a certificate valid for two years.
-                  </p>
-                  <h6 align="left" class="header-gap">
-                    Level : 4
-                  </h6>
-                  <p align="justify" class="header-gap">
-                    The objective of this course is to teach well control competency to ToolPushers, OIMs, Wellsite Supervisors,
-                    Superintendents, and Engineers. A secondary objective is to prepare participants for the IWCF Well Control certification
-                    exams. Certification can be taken for Surface or Combined Surface and Subsea. BOP equipment, drilling fluids, barrier
-                    management, kick detection, shut-in procedures, kill sheets, various methods of well control, and organizing a well
-                    control operation are all taught in this course. A thorough understanding of how well control problems develop, how they
-                    should be solved, and how to prevent them will be discussed. There is an extensive amount of simulator work in the
-                    course with an assortment of simulated problems.
-                  </p>
-                  <p align="justify">
-                    The candidates will gain theoretical knowledge about well control and master practical skills necessary to apply the
-                    theoretical knowledge in blowout prevention and well control. At the end of this course, delegates should be able to
-                    demonstrate familiarity with an understanding of the simulation practical assessment, written examination in equipment,
-                    principles and procedures associated with rotary drilling well control in preparation for IWCF Well Control testing at
-                    Level 4. The successful candidate will be issued with a certificate valid for two years.
+                    U-Tube concept, gas laws, basic math skills, pressure basics, kick detection, kill sheet, drilling fluids, BOP
+                    equipment, shut-in procedures, and basic methods of well control etc. will be all covered. At the end of this course,
+                    delegates should be able to demonstrate familiarity with an understanding of the equipment, principles and procedures
+                    associated with rotary drilling well control in preparation for IWCF Well Control testing at Level 2. The successful
+                    candidate will be issued with a certificate valid for five years.
                   </p>
                 </div>
                 <div>
@@ -125,10 +90,7 @@ class CourseFourPageBodyDetails_Second extends React.Component {
                   </h4>
                   <p>
                     <h5 align="left" class="header-gap">
-                      INR : ₹ 65,000 + 18% GST, Total is <u>₹ 76,700</u>
-                    </h5>
-                    <h5 align="left" class="header-gap">
-                      USD : $ 1,200
+                      INR : ₹ 10,000 + 18% GST, Total is <u>₹ 11,800</u>
                     </h5>
                   </p>
                   <p align="justify">
@@ -138,13 +100,10 @@ class CourseFourPageBodyDetails_Second extends React.Component {
                 </div>
                 <div>
                   <h4 align="left">
-                    <u>Upcoming Course Dates</u>
+                    <u>Course Schedule</u>
                   </h4>
-                  <p>
-                    <CourseFourPageBodyDetails_Third />
-                  </p>
-                  <p align="justify" class="date-note">
-                    * Dates are subject to change depending on IWCF's holidays.
+                  <p align="justify" class="header-gap">
+                    We require minimum 4 to 5 candidates to arrange this course, for more clarification please contact to us.
                   </p>
                 </div>
               </div>
@@ -157,4 +116,4 @@ class CourseFourPageBodyDetails_Second extends React.Component {
   }
 }
 
-export default CourseFourPageBodyDetails_Second;
+export default CourseEightPageBodyDetailsSecond;

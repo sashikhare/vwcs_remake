@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 
 import '../../css/linearicons.css';
@@ -11,7 +10,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class CourseThirdPageBodyDetails_First extends React.Component {
+class AboutusPageBodyDetailsFirst extends React.Component {
   render() {
     return (
       <section class="banner-area relative about-banner" id="home">
@@ -19,9 +18,9 @@ class CourseThirdPageBodyDetails_First extends React.Component {
         <div class="container">
           <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
-              <h1 class="text-white">IWCF - Surface Stack: Level 3 & 4</h1>
+              <h1 class="text-white">About us</h1>
               <p class="text-white link-nav">
-                <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" /> <Link to="/courses">Schedule</Link>
+                <Link to="/">Home</Link> <span class="lnr lnr-arrow-right" /> <Link to="/aboutus"> About us</Link>
               </p>
             </div>
           </div>
@@ -31,4 +30,4 @@ class CourseThirdPageBodyDetails_First extends React.Component {
   }
 }
 
-export default CourseThirdPageBodyDetails_First;
+export default AboutusPageBodyDetailsFirst;

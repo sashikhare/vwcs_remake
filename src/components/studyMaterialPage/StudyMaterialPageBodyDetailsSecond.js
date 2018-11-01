@@ -10,7 +10,7 @@ import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
 import Link from 'react-router-dom/Link';
-class StudyMaterialPageBodyDetails_Second extends React.Component {
+class StudyMaterialPageBodyDetailsSecond extends React.Component {
   render() {
     return (
       <section class="popular-courses-area section-gap courses-page">
@@ -132,4 +132,4 @@ class StudyMaterialPageBodyDetails_Second extends React.Component {
   }
 }
 
-export default StudyMaterialPageBodyDetails_Second;
+export default StudyMaterialPageBodyDetailsSecond;

@@ -15,7 +15,7 @@ import '../../css/main.css';
 
 let scroll = Scroll.animateScroll;
 
-class CoursesPageBodyDetails_Second extends React.Component {
+class CoursesPageBodyDetailsSecond extends React.Component {
   backtotop = event => {
     scroll.scrollToTop();
   };
@@ -273,4 +273,4 @@ class CoursesPageBodyDetails_Second extends React.Component {
   }
 }
 
-export default CoursesPageBodyDetails_Second;
+export default CoursesPageBodyDetailsSecond;
