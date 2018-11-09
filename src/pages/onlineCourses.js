@@ -1,10 +1,9 @@
 import React from 'react';
 
-import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import { OnlineCoursesPageBodyDetailsFirst, OnlineCoursesPageBodyDetailsSecond } from './components/onlineCoursesPage';
+import { OnlineCoursesPageBodyDetailsFirst, OnlineCoursesPageBodyDetailsSecond } from '../components/onlineCoursesPage';
 // import OnlineCoursesPageBodyDetailsSecond from './components/onlineCoursesPage/OnlineCoursesPageBodyDetailsSecond';
 
 class OnlineCoursesPage extends React.Component {

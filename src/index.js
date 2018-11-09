@@ -1,28 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 //import {withRouter} from 'react-router-dom'
 
-import ContactPage from './contact';
-import CoursesPage from './courses';
-import SchedulePage from './schedule';
-import GalleryPage from './gallery';
-import AboutusPage from './aboutus';
-import HomePage from './home';
-import CourseOnePage from './courseOne';
-import CourseSecondPage from './courseSecond';
-import CourseThirdPage from './courseThird';
-import CourseFourPage from './courseFour';
-import CourseFivePage from './courseFive';
-import CourseSixPage from './courseSix';
-import CourseSevenPage from './courseSeven';
-import CourseEightPage from './courseEight';
-import StudyMaterialPage from './studyMaterial';
-import OnlineCoursesPage from './onlineCourses';
+import ContactPage from './pages/contact';
+import CoursesPage from './pages/courses';
+import SchedulePage from './pages/schedule';
+import GalleryPage from './pages/gallery';
+import AboutusPage from './pages/aboutus';
+import HomePage from './pages/home';
+import CourseOnePage from './pages/courseOne';
+import CourseSecondPage from './pages/courseSecond';
+import CourseThirdPage from './pages/courseThird';
+import CourseFourPage from './pages/courseFour';
+import CourseFivePage from './pages/courseFive';
+import CourseSixPage from './pages/courseSix';
+import CourseSevenPage from './pages/courseSeven';
+import CourseEightPage from './pages/courseEight';
+import StudyMaterialPage from './pages/studyMaterial';
+import OnlineCoursesPage from './pages/onlineCourses';
 
 import HeaderDetails from './components/genric/HeaderDetails';
 import FooterDetails from './components/genric/FooterDetails';

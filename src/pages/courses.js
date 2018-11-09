@@ -1,8 +1,6 @@
 import React from 'react';
 
-import './index.css';
-
-import { CoursePageBodyDetailsFirst, CoursePageBodyDetailsSecond } from './components/coursesPage';
+import { CoursePageBodyDetailsFirst, CoursePageBodyDetailsSecond } from '../components/coursesPage';
 // import CoursePageBodyDetailsSecond from './components/coursesPage/CoursePageBodyDetailsSecond';
 
 class CoursesPage extends React.Component {

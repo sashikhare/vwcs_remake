@@ -1,10 +1,10 @@
 import React from 'react';
 
-// import './index.css';
+// ;
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import { AboutusPageBodyDetailsFirst, AboutusPageBodyDetailsSecond } from './components/aboutUsPage';
+import { AboutusPageBodyDetailsFirst, AboutusPageBodyDetailsSecond } from '../components/aboutUsPage';
 // import AboutusPageBodyDetailsSecond from './components/aboutUsPage/AboutusPageBodyDetailsSecond';
 
 class AboutusPage extends React.Component {
