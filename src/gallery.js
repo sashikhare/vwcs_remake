@@ -4,8 +4,8 @@ import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import GalleryPageBodyDetailsFirst from './components/galleryPage/GalleryPageBodyDetailsFirst';
-import GalleryPageBodyDetailsSecond from './components/galleryPage/GalleryPageBodyDetailsSecond';
+import { GalleryPageBodyDetailsFirst, GalleryPageBodyDetailsSecond } from './components/galleryPage';
+// import GalleryPageBodyDetailsSecond from './components/galleryPage/GalleryPageBodyDetailsSecond';
 
 class GalleryPage extends React.Component {
   render() {

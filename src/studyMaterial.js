@@ -4,8 +4,8 @@ import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-import StudyMaterialPageBodyDetailsFirst from './components/studyMaterialPage/StudyMaterialPageBodyDetailsFirst';
-import StudyMaterialPageBodyDetailsSecond from './components/studyMaterialPage/StudyMaterialPageBodyDetailsSecond';
+import { StudyMaterialPageBodyDetailsFirst, StudyMaterialPageBodyDetailsSecond } from './components/studyMaterialPage/';
+// import StudyMaterialPageBodyDetailsSecond from './components/studyMaterialPage/StudyMaterialPageBodyDetailsSecond';
 
 class StudyMaterialPage extends React.Component {
   render() {

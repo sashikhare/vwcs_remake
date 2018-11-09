@@ -5,8 +5,8 @@ import './index.css';
 //import registerServiceWorker from './registerServiceWorker';
 
 import BodyDetailsFirst from './components/genric/BodyDetailsFirst';
-import HomePageBodyDetailsSecond from './components/homePage/HomePageBodyDetailsSecond';
-import HomePageBodyDetailsThird from './components/homePage/HomePageBodyDetailsThird';
+import { HomePageBodyDetailsSecond, HomePageBodyDetailsThird } from './components/homePage';
+// import HomePageBodyDetailsThird from './components/homePage/HomePageBodyDetailsThird';
 
 class HomePage extends React.Component {
   render() {
