@@ -9,7 +9,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class CourseSixPageBodyDetailsThird extends React.Component {
+class courseSixTimeTable extends React.Component {
   constructor(props) {
     super(props);
 
@@ -67,10 +67,13 @@ class CourseSixPageBodyDetailsThird extends React.Component {
                 : null}
             </table>
           </div>
+          <p align="justify" class="date-note">
+            * Dates are subject to change depending on IDAC's holidays.
+          </p>
         </div>
       </section>
     );
   }
 }
 
-export default CourseSixPageBodyDetailsThird;
+export default courseSixTimeTable;

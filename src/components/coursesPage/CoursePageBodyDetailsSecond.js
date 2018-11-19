@@ -36,7 +36,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg" />
-                  <Link to="/courseOne" onClick={this.backtotop}>
+                  <Link to="/1" onClick={this.backtotop}>
                     <img class="img-fluid" src="img/p1.jpg" alt="" />
                   </Link>
                 </div>
@@ -51,7 +51,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
                 </div>
               </div>
               <div class="details">
-                <Link to="/courseOne" onClick={this.backtotop}>
+                <Link to="/1" onClick={this.backtotop}>
                   <h4>
                     IWCF - Surface Stack
                     <p>Level 2</p>
@@ -67,7 +67,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg" />
-                  <Link to="/courseSecond" onClick={this.backtotop}>
+                  <Link to="/2" onClick={this.backtotop}>
                     <img class="img-fluid" src="img/p3.jpg" alt="" />
                   </Link>
                 </div>
@@ -82,7 +82,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
                 </div>
               </div>
               <div class="details">
-                <Link to="/courseSecond" onClick={this.backtotop}>
+                <Link to="/2" onClick={this.backtotop}>
                   <h4>IWCF - Combined Surface & Subsea Stack Level 2</h4>
                 </Link>
                 <p align="justify">
@@ -95,7 +95,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg" />
-                  <Link to="/courseThird" onClick={this.backtotop}>
+                  <Link to="/3" onClick={this.backtotop}>
                     <img class="img-fluid" src="img/p2.jpg" alt="" />
                   </Link>
                 </div>
@@ -110,7 +110,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
                 </div>
               </div>
               <div class="details">
-                <Link to="/courseThird" onClick={this.backtotop}>
+                <Link to="/3" onClick={this.backtotop}>
                   <h4>
                     IWCF - Surface Stack
                     <p>Level 3 & 4</p>
@@ -127,7 +127,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg" />
-                  <Link to="/courseFour" onClick={this.backtotop}>
+                  <Link to="/4" onClick={this.backtotop}>
                     <img class="img-fluid" src="img/p4.jpg" alt="" />
                   </Link>
                 </div>
@@ -142,7 +142,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
                 </div>
               </div>
               <div class="details">
-                <Link to="/courseFour" onClick={this.backtotop}>
+                <Link to="/4" onClick={this.backtotop}>
                   <h4>IWCF - Combined Surface & Subsea Stack: Level 3 & 4</h4>
                 </Link>
                 <p align="justify">
@@ -155,7 +155,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg" />
-                  <Link to="/courseFive" onClick={this.backtotop}>
+                  <Link to="/5" onClick={this.backtotop}>
                     <img class="img-fluid" src="img/p5.jpg" alt="" />
                   </Link>
                 </div>
@@ -170,7 +170,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
                 </div>
               </div>
               <div class="details">
-                <Link to="/courseFive" onClick={this.backtotop}>
+                <Link to="/5" onClick={this.backtotop}>
                   <h4>
                     IADC - Surface Stack
                     <p>Introductory Level</p>
@@ -186,7 +186,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg" />
-                  <Link to="/courseSix" onClick={this.backtotop}>
+                  <Link to="/6" onClick={this.backtotop}>
                     <img class="img-fluid" src="img/p6.jpg" alt="" />
                   </Link>
                 </div>
@@ -201,7 +201,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
                 </div>
               </div>
               <div class="details">
-                <Link to="/courseSix" onClick={this.backtotop}>
+                <Link to="/6" onClick={this.backtotop}>
                   <h4>
                     IADC - Surface Stack
                     <p>Fundamental & Supervisory Level</p>
@@ -218,7 +218,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg" />
-                  <Link to="/courseSeven" onClick={this.backtotop}>
+                  <Link to="/7" onClick={this.backtotop}>
                     <img class="img-fluid" src="img/p7.jpg" alt="" />
                   </Link>
                 </div>
@@ -233,7 +233,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
                 </div>
               </div>
               <div class="details">
-                <Link to="/courseSeven" onClick={this.backtotop}>
+                <Link to="/7" onClick={this.backtotop}>
                   <h4>IADC - Combined Surface & Subsea Stack: Fundamental & Supervisory Level</h4>
                 </Link>
                 <p>When television was young, there was a hugely popular show based on the still popular fictional characte</p>
@@ -243,7 +243,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
               <div class="thumb-wrap relative">
                 <div class="thumb relative">
                   <div class="overlay overlay-bg" />
-                  <Link to="/courseEight" onClick={this.backtotop}>
+                  <Link to="/8" onClick={this.backtotop}>
                     <img class="img-fluid" src="img/p8.jpg" alt="" />
                   </Link>
                 </div>
@@ -258,7 +258,7 @@ class CoursesPageBodyDetailsSecond extends React.Component {
                 </div>
               </div>
               <div class="details">
-                <Link to="/courseEight" onClick={this.backtotop}>
+                <Link to="/8" onClick={this.backtotop}>
                   <h4>HSC Rig Pass</h4>
                 </Link>
                 <div class="container">

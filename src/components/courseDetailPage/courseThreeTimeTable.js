@@ -9,7 +9,7 @@ import '../../css/animate.min.css';
 import '../../css/owl.carousel.css';
 import '../../css/jquery-ui.css';
 import '../../css/main.css';
-class CourseSevenPageBodyDetailsThird extends React.Component {
+class courseThreeTimeTable extends React.Component {
   constructor(props) {
     super(props);
 
@@ -20,7 +20,7 @@ class CourseSevenPageBodyDetailsThird extends React.Component {
     };
   }
   componentDidMount() {
-    fetch('http://localhost:3000/courseSeven_api')
+    fetch('http://localhost:3000/courseThree_api')
       .then(response => response.json())
       .then(data => this.setState({ date: data, isLoading: false }))
       .catch(error => this.setState({ error, isLoading: false }));
@@ -67,10 +67,13 @@ class CourseSevenPageBodyDetailsThird extends React.Component {
                 : null}
             </table>
           </div>
+          <p align="justify" class="date-note">
+            * Dates are subject to change depending on IDAC's holidays.
+          </p>
         </div>
       </section>
     );
   }
 }
 
-export default CourseSevenPageBodyDetailsThird;
+export default courseThreeTimeTable;

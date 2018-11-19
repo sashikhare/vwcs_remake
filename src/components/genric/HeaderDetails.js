@@ -84,42 +84,42 @@ class HeaderDetails extends React.Component {
                     </Link>
                     <ul class="submenu">
                       <li>
-                        <Link to="/courseOne" onClick={this.backtotop}>
+                        <Link exact to="/1" onClick={this.backtotop}>
                           IWCF - Surface Stack: Level 2
                         </Link>
                       </li>
                       <li>
-                        <Link to="/courseSecond" onClick={this.backtotop}>
+                        <Link exact to="/2" onClick={this.backtotop}>
                           IWCF - Combined Surface & Subsea Stack: Level 2
                         </Link>
                       </li>
                       <li>
-                        <Link to="/courseThird" onClick={this.backtotop}>
+                        <Link to="/3" onClick={this.backtotop}>
                           IWCF - Surface Stack: Level 3 & 4
                         </Link>
                       </li>
                       <li>
-                        <Link to="/courseFour" onClick={this.backtotop}>
+                        <Link to="/4" onClick={this.backtotop}>
                           IWCF - Combined Surface & Subsea Stack: Level 3 & 4
                         </Link>
                       </li>
                       <li>
-                        <Link to="/courseFive" onClick={this.backtotop}>
+                        <Link to="/5" onClick={this.backtotop}>
                           IADC - Surface Stack: Introductory Level
                         </Link>
                       </li>
                       <li>
-                        <Link to="/courseSix" onClick={this.backtotop}>
+                        <Link to="/6" onClick={this.backtotop}>
                           IADC - Surface Stack: Fundamental & Supervisory Level
                         </Link>
                       </li>
                       <li>
-                        <Link to="/courseSeven" onClick={this.backtotop}>
+                        <Link to="/7" onClick={this.backtotop}>
                           IADC - Combined Surface & Subsea Stack: Fundamental & Supervisory Level
                         </Link>
                       </li>
                       <li>
-                        <Link to="/courseEight" onClick={this.backtotop}>
+                        <Link to="/8" onClick={this.backtotop}>
                           HSC Rig Pass
                         </Link>
                       </li>

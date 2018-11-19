@@ -13,21 +13,15 @@ import SchedulePage from './pages/schedule';
 import GalleryPage from './pages/gallery';
 import AboutusPage from './pages/aboutus';
 import HomePage from './pages/home';
-import CourseOnePage from './pages/courseOne';
-import CourseSecondPage from './pages/courseSecond';
-import CourseThirdPage from './pages/courseThird';
-import CourseFourPage from './pages/courseFour';
-import CourseFivePage from './pages/courseFive';
-import CourseSixPage from './pages/courseSix';
-import CourseSevenPage from './pages/courseSeven';
-import CourseEightPage from './pages/courseEight';
+
 import StudyMaterialPage from './pages/studyMaterial';
 import OnlineCoursesPage from './pages/onlineCourses';
+import CourseDetail from './pages/courseDetail';
 
 import HeaderDetails from './components/genric/HeaderDetails';
 import FooterDetails from './components/genric/FooterDetails';
 
-const rootElement = document.getElementById('root');
+// const rootElement = document.getElementById('root');
 class App extends React.Component {
   render() {
     return (
@@ -41,16 +35,9 @@ class App extends React.Component {
             <Route exact path="/schedule" component={SchedulePage} />
             <Route exact path="/gallery" component={GalleryPage} />
             <Route exact path="/aboutus" component={AboutusPage} />
-            <Route exact path="/courseOne" component={CourseOnePage} />
-            <Route exact path="/courseSecond" component={CourseSecondPage} />
-            <Route exact path="/courseThird" component={CourseThirdPage} />
-            <Route exact path="/courseFour" component={CourseFourPage} />
-            <Route exact path="/courseFive" component={CourseFivePage} />
-            <Route exact path="/courseSix" component={CourseSixPage} />
-            <Route exact path="/courseSeven" component={CourseSevenPage} />
-            <Route exact path="/courseEight" component={CourseEightPage} />
             <Route exact path="/studyMaterial" component={StudyMaterialPage} />
             <Route exact path="/onlineCourses" component={OnlineCoursesPage} />
+            <Route exact path="/:id" component={CourseDetail} />
           </Switch>
           <FooterDetails />
         </div>

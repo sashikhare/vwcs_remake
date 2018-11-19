@@ -11,6 +11,7 @@ var courseFourRouter = require('./routes/courseFour_api');
 var courseThreeRouter = require('./routes/courseThree_api');
 var courseSixRouter = require('./routes/courseSix_api');
 var courseSevenRouter = require('./routes/courseSeven_api');
+var courseRouter = require('./routes/course_api');
 
 var app = express();
 
@@ -31,6 +32,7 @@ app.use('/courseFour_api', courseFourRouter);
 app.use('/courseThree_api', courseThreeRouter);
 app.use('/courseSix_api', courseSixRouter);
 app.use('/courseSeven_api', courseSevenRouter);
+app.use('/course_api', courseRouter);
 app.use('*', indexRouter);
 // app.use('/', indexRouter);
 
